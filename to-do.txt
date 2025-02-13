@@ -1,9 +1,0 @@
-Switch all mesurments to em or %
-
-page anchors on the staff page
-	one for every staff at the top of the section
-	one at the bottom to return to top of section
-
-
-
-
