@@ -162,7 +162,7 @@ strong {
 }
 
 .staff-link {
-	align-items: flex-start;
+	align-items: center;
 	background-color: rgb(33, 33, 33);
 	border-bottom: 5px solid rgb(34, 136, 32);
     border-right: 5px solid rgb(34, 136, 32);
@@ -170,15 +170,15 @@ strong {
     border-top: 5px solid rgb(117, 212, 28);
 	color: rgb(117, 212, 28);
 	cursor: pointer;
-	display: flex;
+	display: grid;
 	font-family: Montserrat;
 	font-size: 25px;
 	margin-bottom: 2em;
 	margin-top: 2em;
 	outline: none;
 	padding-bottom: 5px;
-	padding-left: 7%;
-	padding-right: 3%;
+	padding-left: 1em;
+	padding-right: 1em;
 	padding-top: 5px;
 	text-align: left;
 	transition: 0.4s;
@@ -210,16 +210,15 @@ strong {
 	list-style-type: none;
 	margin-block-end: 0px;
 	margin-block-start: 0px;
-	margin-bottom: 5px;
+	margin-bottom: auto;
 	margin-inline-end: 0px;
 	margin-inline-start: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-top: 5px;
+	margin-top: auto;
 	overflow-wrap: break-word;
 	padding-inline-start: 33.8229px;
-	padding-left: 33.8229px;
-	padding-right: 33.8229px;
+	padding: 0.5em;
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
