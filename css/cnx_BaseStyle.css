@@ -69,8 +69,8 @@ meta {
 }
 
 *,:after,:before {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit
 }
 
 a {
