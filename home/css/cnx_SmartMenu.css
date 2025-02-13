@@ -1,0 +1,1546 @@
+/*Anything commented in the code is either "temporarily" removed for experimantal 
+reasons or is being used to label clustered parts of the code*/
+
+#main-menu .hvr-grow:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-shrink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-pulse:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-pulse-grow:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-pulse-shrink:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-push:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-pop:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-bounce-in:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-bounce-out:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-rotate:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-grow-rotate:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-float:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-sink:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-bob:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-hang:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-skew:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-skew-forward:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-skew-backward:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-wobble-vertical:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-wobble-horizontal:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-wobble-to-bottom-right:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-wobble-to-top-right:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-wobble-top:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-wobble-bottom:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-wobble-skew:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-buzz:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-buzz-out:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-forward:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-backward:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-fade:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-fade:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-fade:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-fade:not( .button-primary):not( .button-secondary ) > a:hover {
+	background-color: rgb(117, 214, 28);
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-back-pulse:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-back-pulse:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-back-pulse:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-back-pulse:not( .button-primary):not( .button-secondary ) > a:hover {
+	background-color: rgb(117, 214, 28);
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+}
+
+#main-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	background-color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	background-color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	background-color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	background-color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#main-menu .hvr-border-fade:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	box-shadow: inset 0 0 0 4px rgb(255, 255, 255),0 0 1px transparent
+}
+
+#main-menu .hvr-border-fade:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-border-fade:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-border-fade:not( .button-primary):not( .button-secondary ) > a:hover {
+	box-shadow: inset 0 0 0 4px rgb(117, 214, 28),0 0 1px transparent
+}
+
+#main-menu .hvr-hollow:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	box-shadow: inset 0 0 0 4px rgb(255, 255, 255),0 0 1px transparent
+}
+
+#main-menu .hvr-trim:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-trim:not( .button-primary):not( .button-secondary ) > a:before {
+	border-color: rgb(255, 255, 255)
+}
+
+#main-menu .hvr-ripple-out:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-ripple-out:not( .button-primary):not( .button-secondary ) > a:before {
+	border-color: rgb(255, 255, 255)
+}
+
+#main-menu .hvr-ripple-in:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-ripple-in:not( .button-primary):not( .button-secondary ) > a:before {
+	border-color: rgb(255, 255, 255)
+}
+
+#main-menu .hvr-outline-out:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-outline-out:not( .button-primary):not( .button-secondary ) > a:before {
+	border-color: rgb(255, 255, 255)
+}
+
+#main-menu .hvr-outline-in:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-outline-in:not( .button-primary):not( .button-secondary ) > a:before {
+	border-color: rgb(255, 255, 255)
+}
+
+#main-menu .hvr-round-corners:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-underline-from-left:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-underline-from-left:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-underline-from-center:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-underline-from-center:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-underline-from-right:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-underline-from-right:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-overline-from-left:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-overline-from-left:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-overline-from-center:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-overline-from-center:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-overline-from-right:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-overline-from-right:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-reveal:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-reveal:not( .button-primary):not( .button-secondary ) > a:before {
+	border: 0 solid rgb(117, 214, 28);
+}
+
+#main-menu .hvr-underline-reveal:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-underline-reveal:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-overline-reveal:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-overline-reveal:not( .button-primary):not( .button-secondary ) > a:before {
+	background-color: rgb(117, 214, 28);
+}
+
+#main-menu .hvr-glow:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-glow:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-glow:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-glow:not( .button-primary):not( .button-secondary ) > a:hover {
+	box-shadow: 0 0 8px rgba(0,0,0,.6)
+}
+
+#main-menu .hvr-shadow:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-shadow:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-shadow:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-shadow:not( .button-primary):not( .button-secondary ) > a:hover {
+	box-shadow: 0 10px 10px -10px rgba(0,0,0,.5)
+}
+
+#main-menu .hvr-grow-shadow:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-grow-shadow:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-grow-shadow:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-grow-shadow:not( .button-primary):not( .button-secondary ) > a:hover {
+	box-shadow: 0 10px 10px -10px rgba(0,0,0,.5)
+}
+
+#main-menu .hvr-box-shadow-outset:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-box-shadow-outset:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-box-shadow-outset:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-box-shadow-outset:not( .button-primary):not( .button-secondary ) > a:hover {
+	box-shadow: 2px 2px 2px rgba(0,0,0,.6)
+}
+
+#main-menu .hvr-box-shadow-inset:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent;
+	box-shadow: inset 0 0 0 rgba(0,0,0,.6),0 0 1px transparent
+}
+
+#main-menu .hvr-box-shadow-inset:not( .button-primary):not( .button-secondary ) > a:active,#main-menu .hvr-box-shadow-inset:not( .button-primary):not( .button-secondary ) > a:focus,#main-menu .hvr-box-shadow-inset:not( .button-primary):not( .button-secondary ) > a:hover {
+	box-shadow: inset 2px 2px 2px rgba(0,0,0,.6),0 0 1px transparent
+}
+
+#main-menu .hvr-float-shadow:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-shadow-radial:not( .button-primary):not( .button-secondary ) > a {
+	box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-bubble-top:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-bubble-top:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent transparent rgb(255, 255, 255)
+}
+
+#main-menu .hvr-bubble-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-bubble-right:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent transparent transparent rgb(255, 255, 255)
+}
+
+#main-menu .hvr-bubble-bottom:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-bubble-bottom:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: rgb(255, 255, 255) transparent transparent
+}
+
+#main-menu .hvr-bubble-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-bubble-left:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent rgb(255, 255, 255) transparent transparent
+}
+
+#main-menu .hvr-bubble-float-top:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-bubble-float-top:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent transparent rgb(255, 255, 255)
+}
+
+#main-menu .hvr-bubble-float-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-bubble-float-right:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent transparent transparent rgb(255, 255, 255)
+}
+
+#main-menu .hvr-bubble-float-bottom:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-bubble-float-bottom:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: rgb(255, 255, 255) transparent transparent
+}
+
+#main-menu .hvr-bubble-float-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-bubble-float-left:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent rgb(255, 255, 255) transparent transparent
+}
+
+#main-menu .hvr-icon-back:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-forward:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-down:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-up:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-spin:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-drop:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-fade:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-fade:not( .button-primary):not( .button-secondary ) > a:active .hvr-icon:not( .button-primary):not( .button-secondary ) > a,#main-menu .hvr-icon-fade:not( .button-primary):not( .button-secondary ) > a:focus .hvr-icon:not( .button-primary):not( .button-secondary ) > a,#main-menu .hvr-icon-fade:not( .button-primary):not( .button-secondary ) > a:hover .hvr-icon:not( .button-primary):not( .button-secondary ) > a {
+    color: #0f9e5e
+}
+
+#main-menu .hvr-icon-float-away:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-sink-away:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-grow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-shrink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-pulse:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-pulse-grow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-pulse-shrink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-push:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-pop:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-bounce:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-rotate:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-grow-rotate:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-float:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-sink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-bob:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-hang:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-wobble-horizontal:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-wobble-vertical:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-buzz:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-icon-buzz-out:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-curl-top-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-curl-top-left:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4)
+}
+
+#main-menu .hvr-curl-top-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-curl-top-right:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 1px 1px rgba(0,0,0,.4)
+}
+
+#main-menu .hvr-curl-bottom-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-curl-bottom-right:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px -1px 1px rgba(0,0,0,.4)
+}
+
+#main-menu .hvr-curl-bottom-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#main-menu .hvr-curl-bottom-left:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px -1px 1px rgba(0,0,0,.4)
+}
+
+#main-menu .current-menu-item > a:not( .btn ),#main-menu .current-menu-ancestor > a:not( .btn ),#main-menu .current-menu-parent > a:not( .btn ),#main-menu .current_page_parent > a:not( .btn ) {
+	color: rgb(117, 214, 28);
+}
+
+/*#main-menu .hvr-none:not( .current-menu-item ) > a:not( .btn ):hover,#main-menu .hvr-none:not( .current-menu-ancestor ) > a:not( .btn ):hover,#main-menu .hvr-none:not( .current-menu-parent ) > a:not( .btn ):hover,#main-menu .hvr-none:not( .current_page_parent ) > a:not( .btn ):hover {
+	color: var(--transparent);
+	}*/
+
+#main-menu > li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#main-menu > li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.header-left #main-menu, .header-right #main-menu {
+    background-color: rgba(255,255,255,1);
+}
+
+@media (min-width: 768px) {
+    #main-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #main-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn), #main-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn):hover, #main-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn):focus, #main-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn):active, #main-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn).highlighted, #main-menu.sm-clean span.scroll-up, #main-menu.sm-clean span.scroll-down, #main-menu.sm-clean span.scroll-up:hover, #main-menu.sm-clean span.scroll-down:hover {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #main-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) {
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    #main-menu.sm-clean > li.menu-item:not( .custom-sub-menu ) > ul.sub-menu:not(.custom-sub-menu):before, #main-menu.sm-clean > li.menu-item:not( .custom-sub-menu ) > ul.sub-menu:not(.custom-sub-menu):after {
+        border-color: transparent transparent rgb(255, 255, 255) transparent;
+    }
+
+    #main-menu.sm-clean > li.menu-item:not( .custom-sub-menu ) > ul.sub-menu.pointer-bottom:not(.custom-sub-menu):before, #main-menu.sm-clean > li.menu-item:not( .custom-sub-menu ) > ul.sub-menu.pointer-bottom:not(.custom-sub-menu):after {
+        border-color: rgb(255, 255, 255) transparent transparent transparent;
+    }
+}
+
+#secondary-menu .hvr-grow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-shrink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-pulse:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-pulse-grow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-pulse-shrink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-push:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-pop:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bounce-in:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bounce-out:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-rotate:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-grow-rotate:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-float:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-sink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bob:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-hang:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-skew:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-skew-forward:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-skew-backward:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-wobble-vertical:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-wobble-horizontal:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-wobble-to-bottom-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-wobble-to-top-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-wobble-top:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-wobble-bottom:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-wobble-skew:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-buzz:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-buzz-out:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-forward:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-backward:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-fade:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-fade:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-fade:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-fade:not( .button-primary):not( .button-secondary ) > a:hover {
+    background-color: rgb(117, 214, 28);
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-back-pulse:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-back-pulse:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-back-pulse:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-back-pulse:not( .button-primary):not( .button-secondary ) > a:hover {
+    background-color: rgb(117, 214, 28);
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-sweep-to-right:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-sweep-to-left:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-sweep-to-bottom:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-sweep-to-top:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-bounce-to-right:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-bounce-to-left:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-bounce-to-bottom:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-bounce-to-top:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    background-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-radial-out:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-radial-in:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-rectangle-in:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    background-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-rectangle-out:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-shutter-in-horizontal:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    background-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-shutter-out-horizontal:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-shutter-in-vertical:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    background-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-shutter-out-vertical:not( .button-primary):not( .button-secondary ) > a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-border-fade:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    box-shadow: inset 0 0 0 4px rgb(255, 255, 255),0 0 1px transparent
+}
+
+#secondary-menu .hvr-border-fade:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-border-fade:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-border-fade:not( .button-primary):not( .button-secondary ) > a:hover {
+    box-shadow: inset 0 0 0 4px rgb(117, 214, 28),0 0 1px transparent
+}
+
+#secondary-menu .hvr-hollow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    box-shadow: inset 0 0 0 4px rgb(255, 255, 255),0 0 1px transparent
+}
+
+#secondary-menu .hvr-trim:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-trim:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-ripple-out:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-ripple-out:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-ripple-in:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-ripple-in:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-outline-out:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-outline-out:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-outline-in:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-outline-in:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-round-corners:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-underline-from-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-underline-from-left:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-underline-from-center:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-underline-from-center:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-underline-from-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-underline-from-right:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-overline-from-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-overline-from-left:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-overline-from-center:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-overline-from-center:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-overline-from-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-overline-from-right:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-reveal:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-reveal:not( .button-primary):not( .button-secondary ) > a:before {
+    border: 0 solid rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-underline-reveal:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-underline-reveal:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-overline-reveal:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-overline-reveal:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-glow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-glow:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-glow:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-glow:not( .button-primary):not( .button-secondary ) > a:hover {
+    box-shadow: 0 0 8px rgba(0,0,0,.6)
+}
+
+#secondary-menu .hvr-shadow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-shadow:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-shadow:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-shadow:not( .button-primary):not( .button-secondary ) > a:hover {
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,.5)
+}
+
+#secondary-menu .hvr-grow-shadow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-grow-shadow:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-grow-shadow:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-grow-shadow:not( .button-primary):not( .button-secondary ) > a:hover {
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,.5)
+}
+
+#secondary-menu .hvr-box-shadow-outset:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-box-shadow-outset:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-box-shadow-outset:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-box-shadow-outset:not( .button-primary):not( .button-secondary ) > a:hover {
+    box-shadow: 2px 2px 2px rgba(0,0,0,.6)
+}
+
+#secondary-menu .hvr-box-shadow-inset:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent;
+    box-shadow: inset 0 0 0 rgba(0,0,0,.6),0 0 1px transparent
+}
+
+#secondary-menu .hvr-box-shadow-inset:not( .button-primary):not( .button-secondary ) > a:active,#secondary-menu .hvr-box-shadow-inset:not( .button-primary):not( .button-secondary ) > a:focus,#secondary-menu .hvr-box-shadow-inset:not( .button-primary):not( .button-secondary ) > a:hover {
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,.6),0 0 1px transparent
+}
+
+#secondary-menu .hvr-float-shadow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-shadow-radial:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bubble-top:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bubble-top:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent transparent rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-bubble-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bubble-right:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent transparent transparent rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-bubble-bottom:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bubble-bottom:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: rgb(255, 255, 255) transparent transparent
+}
+
+#secondary-menu .hvr-bubble-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bubble-left:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent rgb(255, 255, 255) transparent transparent
+}
+
+#secondary-menu .hvr-bubble-float-top:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bubble-float-top:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent transparent rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-bubble-float-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bubble-float-right:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent transparent transparent rgb(255, 255, 255)
+}
+
+#secondary-menu .hvr-bubble-float-bottom:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bubble-float-bottom:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: rgb(255, 255, 255) transparent transparent
+}
+
+#secondary-menu .hvr-bubble-float-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-bubble-float-left:not( .button-primary):not( .button-secondary ) > a:before {
+    border-color: transparent rgb(255, 255, 255) transparent transparent
+}
+
+#secondary-menu .hvr-icon-back:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-forward:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-down:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-up:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-spin:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-drop:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-fade:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-fade:not( .button-primary):not( .button-secondary ) > a:active .hvr-icon:not( .button-primary):not( .button-secondary ) > a,#secondary-menu .hvr-icon-fade:not( .button-primary):not( .button-secondary ) > a:focus .hvr-icon:not( .button-primary):not( .button-secondary ) > a,#secondary-menu .hvr-icon-fade:not( .button-primary):not( .button-secondary ) > a:hover .hvr-icon:not( .button-primary):not( .button-secondary ) > a {
+    color: #0f9e5e
+}
+
+#secondary-menu .hvr-icon-float-away:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-sink-away:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-grow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-shrink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-pulse:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-pulse-grow:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-pulse-shrink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-push:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-pop:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-bounce:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-rotate:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-grow-rotate:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-float:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-sink:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-bob:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-hang:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-wobble-horizontal:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-wobble-vertical:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-buzz:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-icon-buzz-out:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-curl-top-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-curl-top-left:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4)
+}
+
+#secondary-menu .hvr-curl-top-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-curl-top-right:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 1px 1px rgba(0,0,0,.4)
+}
+
+#secondary-menu .hvr-curl-bottom-right:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-curl-bottom-right:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px -1px 1px rgba(0,0,0,.4)
+}
+
+#secondary-menu .hvr-curl-bottom-left:not( .button-primary):not( .button-secondary ) > a {
+    box-shadow: 0 0 1px transparent
+}
+
+#secondary-menu .hvr-curl-bottom-left:not( .button-primary):not( .button-secondary ) > a:before {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px -1px 1px rgba(0,0,0,.4)
+}
+
+#secondary-menu .current-menu-item > a:not( .btn ),#secondary-menu .current-menu-ancestor > a:not( .btn ),#secondary-menu .current-menu-parent > a:not( .btn ),#secondary-menu .current_page_parent > a:not( .btn ) {
+	color: rgb(117, 214, 28);
+}
+
+#secondary-menu .hvr-none:not( .current-menu-item ) > a:not( .btn ):hover,#secondary-menu .hvr-none:not( .current-menu-ancestor ) > a:not( .btn ):hover,#secondary-menu .hvr-none:not( .current-menu-parent ) > a:not( .btn ):hover,#secondary-menu .hvr-none:not( .current_page_parent ) > a:not( .btn ):hover {
+	color: var(--transparent);
+}
+	
+.header-left #secondary-menu, .header-right #secondary-menu {
+	background-color: rgba(255,255,255,0.4);
+}
+
+@media (min-width: 768px) {
+	#secondary-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) {
+		background-color: rgb(255, 255, 255);
+	}
+	
+	#secondary-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn), #secondary-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn):hover, #secondary-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn):focus, #secondary-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn):active, #secondary-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) li.menu-item:not(.custom-sub-menu) > a:not(.btn).highlighted, #secondary-menu.sm-clean span.scroll-up, #secondary-menu.sm-clean span.scroll-down, #secondary-menu.sm-clean span.scroll-up:hover, #secondary-menu.sm-clean span.scroll-down:hover {
+		background-color: rgb(255, 255, 255);
+	}
+	
+	#secondary-menu.sm-clean ul.sub-menu:not(.custom-sub-menu) {
+		border: 1px solid rgb(255, 255, 255);
+	}
+	
+	#secondary-menu.sm-clean > li.menu-item:not( .custom-sub-menu ) > ul.sub-menu:not(.custom-sub-menu):before, #secondary-menu.sm-clean > li.menu-item:not( .custom-sub-menu ) > ul.sub-menu:not(.custom-sub-menu):after {
+		border-color: transparent transparent rgb(255, 255, 255) transparent;
+	}
+	
+	#secondary-menu.sm-clean > li.menu-item:not( .custom-sub-menu ) > ul.sub-menu.pointer-bottom:not(.custom-sub-menu):before, #secondary-menu.sm-clean > li.menu-item:not( .custom-sub-menu ) > ul.sub-menu.pointer-bottom:not(.custom-sub-menu):after {
+		border-color: rgb(255, 255, 255) transparent transparent transparent;
+	}
+}
+
+/*
+
+var(--color-1) = rgb(117, 214, 28)
+
+var(--color-2) = rgb(255, 255, 255)
+
+var(--color-3) = rgb(255, 255, 255)
+
+var(--transparent) = rgba(0, 0, 0, 0)
+
+*/
