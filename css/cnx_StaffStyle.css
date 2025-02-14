@@ -23,9 +23,9 @@ reasons or is being used to label clustered parts of the code*/
 div.scroll-container  {
 	background-color: #303030;
 	border-bottom: 5px solid rgb(34, 136, 32);
-    border-right: 5px solid rgb(34, 136, 32);
-    border-left: 5px solid rgb(117, 212, 28);
-    border-top: 5px solid rgb(117, 212, 28);
+	border-right: 5px solid rgb(34, 136, 32);
+	border-left: 5px solid rgb(117, 212, 28);
+	border-top: 5px solid rgb(117, 212, 28);
 	height: auto;
 	overflow: auto;
 	white-space: nowrap;
@@ -104,9 +104,9 @@ strong {
 	align-items: flex-start;
 	background-color: rgb(33, 33, 33);
 	border-bottom: 5px solid rgb(33, 33, 33);
-    border-right: 5px solid rgb(33, 33, 33);
-    border-left: 5px solid rgb(33, 33, 33);
-    border-top: 5px solid rgb(33, 33, 33);
+	border-right: 5px solid rgb(33, 33, 33);
+	border-left: 5px solid rgb(33, 33, 33);
+	border-top: 5px solid rgb(33, 33, 33);
 	color: rgb(117, 212, 28);
 	cursor: pointer;
 	display: flex;
@@ -140,9 +140,9 @@ strong {
 .active, .accordion:hover {
 	background-color: #303030;
 	border-bottom: 5px solid rgb(34, 136, 32);
-    border-right: 5px solid rgb(34, 136, 32);
-    border-left: 5px solid rgb(117, 212, 28);
-    border-top: 5px solid rgb(117, 212, 28);
+	border-right: 5px solid rgb(34, 136, 32);
+	border-left: 5px solid rgb(117, 212, 28);
+	border-top: 5px solid rgb(117, 212, 28);
 }
 
 .accordion-btn {
@@ -165,9 +165,9 @@ strong {
 	align-items: center;
 	background-color: rgb(33, 33, 33);
 	border-bottom: 5px solid rgb(34, 136, 32);
-    border-right: 5px solid rgb(34, 136, 32);
-    border-left: 5px solid rgb(117, 212, 28);
-    border-top: 5px solid rgb(117, 212, 28);
+	border-right: 5px solid rgb(34, 136, 32);
+	border-left: 5px solid rgb(117, 212, 28);
+	border-top: 5px solid rgb(117, 212, 28);
 	color: rgb(117, 212, 28);
 	cursor: pointer;
 	display: grid;
@@ -251,8 +251,8 @@ strong {
 }
 
 li.staff-link-menu-item {
-    position: relative;
-    margin-right: 20px;
+	position: relative;
+	margin-right: 20px;
 }
 
 .staff-anchor-link {
