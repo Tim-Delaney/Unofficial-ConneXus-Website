@@ -1,7 +1,20 @@
 Switch all mesurments to em or %
 
+pages to do: 9
+	Percussion History
+	CNX25 Schedule
+	CPAA Board
+	ConneXion
+	Links & Sponsors
+	Donate
+	Winter Guard History
+	Contact Us
+	Auditions
 
-
+Pages done:
+	Home
+	Staff
+	Store(Not Public)
 
 
 
