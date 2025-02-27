@@ -893,7 +893,7 @@ header{
 	display: flex;
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16.8px;
-	font-weight: 400;
+	font-weight: bold;
 	height: 10%;
 	justify-content: space-between;
 	letter-spacing: normal;
@@ -928,7 +928,7 @@ header{
 	display: flex;
 	font-family: Montserrat; /*"Nunito Sans", sans-serif;*/
 	font-size: 16.8px;
-	font-weight: 400;
+	font-weight: bold;
 	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
@@ -952,7 +952,7 @@ li.menu-item {
 .link-menu-link {
 	color: rgb(34, 136, 32);
 	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	font-size: 17pxpx;
+	font-size: 17px;
 	height: 100%;
 	text-decoration: none;
 	transition: linear 0.2s;
@@ -1135,9 +1135,9 @@ ul.sub-menu li {
 	box-sizing: border-box;
 	color: rgb(117, 214, 28);
 	display: block;
-	font-family: Montserrat;/*Raleway*/
+	font-family: Raleway;
 	font-size: 33px;
-	font-weight: 600;
+	font-weight: 1000;
 	hyphens: manual;
 	line-height: 36.3px;
 	margin-block-start: 0px;
