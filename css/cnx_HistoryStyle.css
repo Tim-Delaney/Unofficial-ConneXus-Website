@@ -136,37 +136,200 @@ reasons or is being used to label clustered parts of the code*/
 }
 
 .title-wrap {
-	
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: block;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	margin-left: 26.6667px;
+	margin-right: 26.6667px;
+	max-width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	unicode-bidi: isolate;
+	width: 1170px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .title-wrap:before {
-	
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	content: " ";
+	display: table;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .title-wrap:after {
-	
+	box-sizing: border-box;
+	clear: both;
+	color: rgb(51, 51, 51);
+	content: " ";
+	display: table;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .title-space {
-	
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	min-height: 30px;
+	padding-bottom: 19px;
+	padding-top: 29px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .title-space:before {
-	
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	content: " ";
+	display: block;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	width: 0px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .title-space:after {
-	
+	box-sizing: border-box;
+	clear: both;
+	color: rgb(51, 51, 51);
+	content: " ";
+	display: block;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	width: 0px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.title-textbox-1 {
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	min-height: 30px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.title-textbox-1:before {
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	content: " ";
+	display: block;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	width: 0px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.title-textbox-1:after {
+	box-sizing: border-box;
+	clear: both;
+	color: rgb(51, 51, 51);
+	content: " ";
+	display: block;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	width: 0px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.title-textbox-2 {
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: block;
+	float: left;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	min-height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	text-align: center;
+	text-size-adjust: 100%;
+	text-transform: none;
+	unicode-bidi: isolate;
+	width: 1100px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .title-text {
-	
-}
-
-.title-text:before {
-	
-}
-
-.title-text:after {
-	
+	box-sizing: border-box;
+	color: rgb(117, 214, 28);
+	display: block;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: 600;
+	hyphens: manual;
+	line-height: 35.2px;
+	margin-block-end: 10px;
+	margin-block-start: 10px;
+	margin-bottom: 10px;
+	margin-inline-end: 0px;
+	margin-inline-start: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	overflow-wrap: normal;
+	text-align: center;
+	text-size-adjust: 100%;
+	text-transform: uppercase;
+	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
