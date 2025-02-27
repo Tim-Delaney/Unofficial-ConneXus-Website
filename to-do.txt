@@ -1,7 +1,6 @@
 Switch all mesurments to em or %
 
-pages to do: 9
-	Percussion History
+pages to do: 8
 	CNX25 Schedule
 	CPAA Board
 	ConneXion
@@ -11,10 +10,10 @@ pages to do: 9
 	Contact Us
 	Auditions
 
-In Progress:
-	
+In Progress: 1
+	Percussion History
 
-Pages done:
+Pages done: 3
 	Home
 	Staff
 	Store(Not Public)
