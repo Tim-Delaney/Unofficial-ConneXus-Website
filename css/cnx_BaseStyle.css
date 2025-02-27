@@ -1046,7 +1046,7 @@ ul.sub-menu li {
 
 .title-card {
 	align-items: center;
-	background-image: url("remnant-header.png");
+	background-image: url("myself_again-header.png");/*"remnant-header.png"*/
 	/*This image can change to match the show theme every year.
 	MUST be saved in the css folder AND the aspect-ratio MUST be 1263px x 168px */
 	border-bottom: 6px solid rgb(117, 214, 28);
