@@ -941,7 +941,7 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
-	width: 10%;
+	width: 12%;
 }
 
 li.menu-item {
@@ -967,10 +967,36 @@ li.menu-item {
 	transition: linear 0.2s;
 }
 
+.sub-menu-text_w-arrow {
+	color: rgb(34, 136, 32);
+	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-size: 17px;
+	height: 100%;
+	text-decoration: none;
+	transition: linear 0.2s;
+}
+
+.sub-menu-text_w-arrow:after {
+	content: "\2B9F";
+	font-size: 12px;
+	position: relative;
+	left: -0.2em;
+	top: -0.2em;
+}
+
+.sub-menu-text_w-arrow:hover {
+	color: rgb(117, 212, 28);
+	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-size: 16px;
+	height: 100%;
+	text-decoration: underline;
+	transition: linear 0.2s;
+}
+
 .sub-menu-text {
 	color: rgb(34, 136, 32);
 	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	font-size: 17pxpx;
+	font-size: 17px;
 	height: 100%;
 	text-decoration: none;
 	transition: linear 0.2s;
