@@ -1,0 +1,660 @@
+<!doctype html>
+<!-- Anything commented in the code is either "temporarily" removed for experimantal 
+reasons or is being used to label clustered parts of the code -->
+
+<html lang="en">
+	<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+		<title>ConneXus | Template</title>
+		<link rel="icon" type="image/png" size="16x16" href="images\CNX_Icon-HD.png">
+		<link rel="stylesheet" href="css/cnx_BaseStyle.css">
+		<link rel="stylesheet" href="css/cnx_ScheduleStyle.css">
+		<link rel="stylesheet" href="css/cnx_SmartMenu.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="java/jquery.smartmenus.min.js"></script>
+		<script>
+			$(function() {
+				$('#main-menu').smartmenus();
+			});
+		</script>
+		<script type="text/javascript">
+            /* <![CDATA[ */
+            window._wpemojiSettings = {
+                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+                "ext": ".png",
+                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+                "svgExt": ".svg",
+                "source": {
+                    "concatemoji": "https:\/\/www.connexusindependent.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"
+                }
+            };
+            /*! This file is auto-generated */
+            !function(i, n) {
+                var o, s, e;
+                function c(e) {
+                    try {
+                        var t = {
+                            supportTests: e,
+                            timestamp: (new Date).valueOf()
+                        };
+                        sessionStorage.setItem(o, JSON.stringify(t))
+                    } catch (e) {}
+                }
+                function p(e, t, n) {
+                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(t, 0, 0);
+                    var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)
+                      , r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(n, 0, 0),
+                    new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                    return t.every(function(e, t) {
+                        return e === r[t]
+                    })
+                }
+                function u(e, t, n) {
+                    switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
+                    }
+                    return !1
+                }
+                function f(e, t, n) {
+                    var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300,150) : i.createElement("canvas")
+                      , a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    })
+                      , o = (a.textBaseline = "top",
+                    a.font = "600 32px Arial",
+                    {});
+                    return e.forEach(function(e) {
+                        o[e] = t(a, e, n)
+                    }),
+                    o
+                }
+                function t(e) {
+                    var t = i.createElement("script");
+                    t.src = e,
+                    t.defer = !0,
+                    i.head.appendChild(t)
+                }
+                "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports",
+                s = ["flag", "emoji"],
+                n.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                },
+                e = new Promise(function(e) {
+                    i.addEventListener("DOMContentLoaded", e, {
+                        once: !0
+                    })
+                }
+                ),
+                new Promise(function(t) {
+                    var n = function() {
+                        try {
+                            var e = JSON.parse(sessionStorage.getItem(o));
+                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests)
+                                return e.supportTests
+                        } catch (e) {}
+                        return null
+                    }();
+                    if (!n) {
+                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob)
+                            try {
+                                var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));"
+                                  , r = new Blob([e],{
+                                    type: "text/javascript"
+                                })
+                                  , a = new Worker(URL.createObjectURL(r),{
+                                    name: "wpTestEmojiSupports"
+                                });
+                                return void (a.onmessage = function(e) {
+                                    c(n = e.data),
+                                    a.terminate(),
+                                    t(n)
+                                }
+                                )
+                            } catch (e) {}
+                        c(n = f(s, u, p))
+                    }
+                    t(n)
+                }
+                ).then(function(e) {
+                    for (var t in e)
+                        n.supports[t] = e[t],
+                        n.supports.everything = n.supports.everything && n.supports[t],
+                        "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag,
+                    n.DOMReady = !1,
+                    n.readyCallback = function() {
+                        n.DOMReady = !0
+                    }
+                }).then(function() {
+                    return e
+                }).then(function() {
+                    var e;
+                    n.supports.everything || (n.readyCallback(),
+                    (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji),
+                    t(e.wpemoji)))
+                }))
+            }((window,
+            document), window._wpemojiSettings);
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="java/jquery.min.js" id="jquery-core-js"></script>
+        <script type="text/javascript" src="java/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+        <script type="text/javascript" id="boldgrid-front-end-scripts-js-extra">
+            /* <![CDATA[ */
+            var BGTFW = BGTFW || {};
+            BGTFW.assets = BGTFW.assets || {};
+            BGTFW.assets.path = ["https:\/\/www.connexusindependent.org\/wp-content\/themes\/crio\/inc\/boldgrid-theme-framework\/"];
+            var highlightRequiredFields = ["yes"];
+            var bgtfwButtonClasses = {
+                "button-primary": "btn btn-color-1 btn-small btn-pill btn-raised btn-3d btn-border-color-1",
+                "button-secondary": "btn btn-color-2 btn-border-color-1"
+            };
+            var floatLabelsOn = ["1"];
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="java/front-end.min.js" id="boldgrid-front-end-scripts-js"></script>
+        <script type="text/javascript" id="crio-premium-js-extra">
+            /* <![CDATA[ */
+            var CrioPremium = {
+                "hasHeaderTemplate": "",
+                "hasFooterTemplate": "",
+                "hasStickyHeaderTemplate": "",
+                "headerBackground": "",
+                "post": {
+                    "ID": 105,
+                    "title": "Home",
+                    "type": "page"
+                },
+                "postMeta": {
+                    "boldgrid_page_id": ["716"],
+                    "_edit_lock": ["1727231310:5"],
+                    "_edit_last": ["5"],
+                    "_wp_page_template": ["default"],
+                    "boldgrid_in_page_containers": ["1"],
+                    "bgseo_robots_index": ["index"],
+                    "bgseo_robots_follow": ["follow"],
+                    "crio-premium-page-header-override": ["global"],
+                    "crio-premium-page-header-select": ["none"],
+                    "crio-premium-page-header-background": [""],
+                    "_last_editor_used_jetpack": ["classic-editor"],
+                    "crio-premium-page-header-featured-image-background": ["0"],
+                    "boldgrid_hide_page_title": ["0"]
+                }
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="java/crio-premium-public.js" id="crio-premium-js"></script>
+        <script type="text/javascript" id="wpmenucart-ajax-assist-js-extra">
+            /* <![CDATA[ */
+            var wpmenucart_ajax_assist = {
+                "shop_plugin": "woocommerce",
+                "always_display": ""
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="java/wpmenucart-ajax-assist.min.js" id="wpmenucart-ajax-assist-js"></script>
+        <script type="text/javascript" src="java/jquery.blockUI.min.js" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+        <script type="text/javascript" id="wc-add-to-cart-js-extra">
+            /* <![CDATA[ */
+            var wc_add_to_cart_params = {
+                "ajax_url": "\/wp-admin\/admin-ajax.php",
+                "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+                "i18n_view_cart": "View cart",
+                "cart_url": "https:\/\/www.connexusindependent.org\/cart\/",
+                "is_cart": "",
+                "cart_redirect_after_add": "no"
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="java/add-to-cart.min.js" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+        <script type="text/javascript" src="java/js.cookie.min.js" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+        <script type="text/javascript" id="woocommerce-js-extra">
+            /* <![CDATA[ */
+            var woocommerce_params = {
+                "ajax_url": "\/wp-admin\/admin-ajax.php",
+                "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="java/woocommerce.min.js?ver=9.3.3" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+        <script type="text/javascript" id="WCPAY_ASSETS-js-extra">
+            /* <![CDATA[ */
+            var wcpayAssets = {
+                "url": "https:\/\/www.connexusindependent.org\/wp-content\/plugins\/woocommerce-payments\/dist\/"
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" id="boldgrid-wow-js-js-extra">
+            /* <![CDATA[ */
+            var _wowJsOptions = {
+                "enabled": false,
+                "boxClass": "wow",
+                "animateClass": "animated",
+                "offset": -200,
+                "mobile": true,
+                "live": true
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="java/wow.min.js" id="boldgrid-wow-js-js"></script>
+        <script type="text/javascript" id="boldgrid-goup-js-js-extra">
+            /* <![CDATA[ */
+            var _goupOptions = {
+                "enabled": true,
+                "location": "right",
+                "locationOffset": 30,
+                "bottomOffset": 30,
+                "containerSize": 40,
+                "containerRadius": "4px",
+                "containerClass": "goup-container color1-background-color color-1-text-contrast",
+                "arrowClass": "goup-arrow",
+                "containerColor": "#000",
+                "arrowColor": false,
+                "trigger": 500,
+                "entryAnimation": "fade",
+                "alwaysVisible": false,
+                "goupSpeed": "slow",
+                "hideUnderWidth": 500,
+                "title": "",
+                "titleAsText": false,
+                "titleAsTextClass": "goup-text",
+                "zIndex": 1
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="java/jquery.goup.js" id="boldgrid-goup-js-js"></script>
+        <link rel="https://api.w.org/" href="https://www.connexusindependent.org/wp-json/"/>
+        <link rel="alternate" title="JSON" type="application/json" href="https://www.connexusindependent.org/wp-json/wp/v2/pages/105"/>
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.connexusindependent.org/xmlrpc.php?rsd"/>
+        <meta name="generator" content="WordPress 6.7.1"/>
+        <meta name="generator" content="WooCommerce 9.3.3"/>
+        <link rel='shortlink' href='https://www.connexusindependent.org/'/>
+        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.connexusindependent.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.connexusindependent.org%2F"/>
+        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.connexusindependent.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.connexusindependent.org%2F&#038;format=xml"/>
+        <script>
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+        </script>
+		<script async src="https://www.paypalobjects.com/insights/v1/paypal-insights.sandbox.min.js"></script>
+		<script src="java/wp-emoji-release.min.js" defer=""></script>
+    </head>
+	
+  <!--  WEBSITE BEGINS  -->
+    
+	<body>
+		<header> 
+			<div class="header_inner">
+				<div class="header_extra">
+					<ul class="header-social-icons">
+						<li class="header-social-icon-facebook">
+							<a class="header-social-icon_icon" href="https://www.facebook.com/ConnexusIndependent" aria-label="Open Facebook in a new tab" rel="noopener noreferrer" target="_blank">
+								<button class="glow-button">
+									<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path>
+									</svg>
+								</button>
+								<span class="screen-reader-text">
+									Open Facebook in a new tab
+								</span>
+							</a>
+						</li>
+						<li class="header-social-icon-twitter">
+							<a class="header-social-icon_icon" href="https://twitter.com/Conne_X_us" aria-label="Open Twitter in a new tab" rel="noopener noreferrer" target="_blank">
+								<button class="glow-button">
+									<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path>
+									</svg>
+								</button>
+								<span class="screen-reader-text">
+									Open Twitter in a new tab
+								</span>
+							</a>
+						</li>
+						<li class="header-social-icon-instagram">
+							<a class="header-social-icon_icon" href="https://www.instagram.com/conne_x_us/" aria-label="Open Instagram in a new tab" rel="noopener noreferrer" target="_blank">
+								<button class="glow-button">
+									<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path>
+									</svg>
+								</button>
+								<span class="screen-reader-text">
+									Open Instagram in a new tab
+								</span>
+							</a>
+						</li>
+						<li class="header-social-icon-youtube">
+							<a class="header-social-icon_icon" href="https://www.youtube.com/results?search_query=ConneXus+Percussion" aria-label="Open YouTube in a new tab" rel="noopener noreferrer" target="_blank">
+								<button class="glow-button">
+									<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><!--width="24" height="24"-->
+										<path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+									</svg>
+								</button>	
+								<span class="screen-reader-text">
+									Open YouTube in a new tab
+								</span>
+							</a>
+						</li>
+						<li class="header-social-icon-donate">
+							<a class="header-social-icon_icon" href="https://www.connexusindependent.org/donate/" aria-label="Open CNX Donations in a new tab" rel="noopener noreferrer" target="_blank">
+								<button class="glow-button">
+									<svg role="img" aria-hidden="true" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+										<path d="M112 112c0 35.3-28.7 64-64 64l0 160c35.3 0 64 28.7 64 64l352 0c0-35.3 28.7-64 64-64l0-160c-35.3 0-64-28.7-64-64l-352 0zM0 128C0 92.7 28.7 64 64 64l448 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zM176 256a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm80-48c0 8.8 7.2 16 16 16l0 64-8 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l24 0 24 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-8 0 0-80c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16z"/>
+									</svg>
+								</button>
+								<span class="screen-reader-text">
+									Open CNX Donations in a new tab
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="title-nav">
+					<div class="cnx-decor">
+						<img width="390" height="88" class="logo" src="images/cropped-edited_ConneXus_Color_White_Green_X_@1920-768x186-1-e1625073770288.png" alt="Connexus" style="--smush-placeholder-width: 400px; --smush-placeholder-aspect-ratio: 400/98;">
+					</div>
+				</div>
+			</div>
+			<div>
+                <div class="entry-content">
+					<div class="link-bar-wrapper">
+						<div class="link-bar-container">
+							<input id="main-menu-state" type="checkbox" class="link-menu-check"/>
+							<label id="main-menu-btn" class="link-menu-btn" for="main-menu-state">
+								<div id="main-menu-hamburger" class="link-menu-burger">
+									<span class="burger-box">
+										<span class="inside-burger"></span>
+									</span>
+								</div>
+								<span class="screen-reader-text">Toggle menu visibility.</span>
+							</label>
+						  <!--  Use this: https://www.smartmenus.org/docs/-->
+							<ul id="main-menu" class="link-menu" data-smartmenus-id="17364307661163804">
+							  <!-- HOME -->
+								<li id="menu-item-106" class="menu-item"><!-- link-menu-item-1 -->
+									<a href="cnx_home.html" class="link-menu-link" aria-current="page">
+										Home
+									</a>
+								</li>
+							  <!-- PERCUSSION -->
+								<li id="menu-item-387" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-387 color3-border-color hvr-none">
+									<a href="#" class="sub-menu-text_w-arrow">
+									Percussion
+									</a>
+									<ul class="sub-menu">
+										<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110 hvr-none">
+											<a href="cnx_history.html" class="sub-menu-text">
+												Percussion&nbsp;History
+											</a>
+										</li>
+										<li id="menu-item-417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-417 hvr-none">
+											<a href="cnx_schedule.html" class="sub-menu-text">
+												CNX25&nbsp;Schedule
+											</a>
+										</li>
+									</ul>
+								</li>
+							  <!-- CNX STAFF -->
+								<li id="menu-item-261" class="menu-item"><!-- link-menu-item-3 -->
+									<a href="cnx_staff.html" class="link-menu-link">
+										CNX Staff
+									</a>
+								</li>
+							  <!-- CPAA BOARD -->
+								<li id="menu-item-324" class="menu-item"><!-- link-menu-item-4 -->
+									<a href="https://www.connexusindependent.org/cpaa-board-of-directors/" class="link-menu-link">
+										CPAA Board
+									</a>
+								</li>
+							  <!-- CONNEXION -->
+								<li id="menu-item-369" class="menu-item"><!-- link-menu-item-5 -->
+									<a href="https://www.connexusindependent.org/connexion/" class="link-menu-link">
+										ConneXion
+									</a>
+								</li>
+							  <!-- MORE -->
+								<li id="menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-384 color3-border-color hvr-none">
+									<a href="#" class="sub-menu-text_w-arrow">
+										More
+									</a>
+									<ul class="sub-menu">
+										<li id="menu-item-386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386 hvr-none">
+											<a href="https://www.connexusindependent.org/links/" class="sub-menu-text">
+												Links&nbsp;&#038;Sponsors
+											</a>
+										</li>
+										<li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404 hvr-none">
+											<a href="https://www.connexusindependent.org/donate/" class="sub-menu-text">
+												Donate
+											</a>
+										</li>
+										<li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418 hvr-none">
+											<a href="https://www.connexusindependent.org/winter-guard/" class="sub-menu-text">
+												Winter&nbsp;Guard&nbsp;History
+											</a>
+										</li>
+										<li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114 hvr-none">
+											<a href="https://www.connexusindependent.org/contact-us/" class="sub-menu-text">
+												Contact&nbsp;Us
+											</a>
+										</li>
+									</ul>
+								</li>
+							  <!-- CNX STORE -->
+								<li id="menu-item-755" class="menu-item"><!-- link-menu-item-7 -->
+									<a href="../store/cnx_store.html" class="link-menu-link">
+										CNX Store
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="title-card">
+				<div class="boldgrid-section_title-card">
+					<div class="container">
+						<div class="row">
+							<div class="audition-align-1">
+								<h3 class="audition-align-2">
+									<a href="https://www.connexusindependent.org/cnx25-auditions/" class="audit">2025 CNX Audition packets<br>available now!</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	  <!-- EDIT BEGINS HERE -->
+		<div class="backdrop">
+			<div class="container">
+				<div class="sched-col">
+					<h2 class="sched-head">
+						cnx25 Schedule
+					</h2>
+					<p class="sched-body">
+						<span>
+							Information regarding our upcoming ConneXion Fall Clinic Series, 2025 ConneXus Auditions, and the 2025 ConneXus Performance Calendar will be available soon!
+						</span>
+					</p>
+					<p class="sched-body">
+						&nbsp;
+					</p>
+					<p class="sched-body">
+						&nbsp;
+					</p>
+					<p class="sched-body">
+						&nbsp;
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<div class="site-footer">
+			<ul class="social-icons">
+				<li class="social-icon-facebook">
+					<a class="social-icon_icon" href="https://www.facebook.com/ConnexusIndependent" aria-label="Open Facebook in a new tab" rel="noopener noreferrer" target="_blank">
+						<button class="glow-button">
+							<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path>
+								</svg>
+						</button>
+						<span class="screen-reader-text">
+							Open Facebook in a new tab
+						</span>
+					</a>
+				</li>
+				<li class="social-icon-twitter">
+					<a class="social-icon_icon" href="https://twitter.com/Conne_X_us" aria-label="Open Twitter in a new tab" rel="noopener noreferrer" target="_blank">
+						<button class="glow-button">
+							<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path>
+							</svg>
+						</button>
+						<span class="screen-reader-text">
+							Open Twitter in a new tab
+						</span>
+					</a>
+				</li>
+				<li class="social-icon-instagram">
+					<a class="social-icon_icon" href="https://www.instagram.com/conne_x_us/" aria-label="Open Instagram in a new tab" rel="noopener noreferrer" target="_blank">
+						<button class="glow-button">
+							<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path>
+							</svg>
+						</button>
+						<span class="screen-reader-text">
+							Open Instagram in a new tab
+						</span>
+					</a>
+				</li>
+				<li class="social-icon-youtube">
+					<a class="social-icon_icon" href="https://www.youtube.com/results?search_query=ConneXus+Percussion" aria-label="Open YouTube in a new tab" rel="noopener noreferrer" target="_blank">
+						<button class="glow-button">
+							<svg role="img" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><!--width="24" height="24"-->
+								<path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+							</svg>
+						</button>	
+						<span class="screen-reader-text">
+							Open YouTube in a new tab
+						</span>
+					</a>
+				</li>
+				<li class="social-icon-donate">
+					<a class="social-icon_icon" href="https://www.connexusindependent.org/donate/" aria-label="Open CNX Donations in a new tab" rel="noopener noreferrer" target="_blank">
+						<button class="glow-button">
+							<svg role="img" aria-hidden="true" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+								<path d="M112 112c0 35.3-28.7 64-64 64l0 160c35.3 0 64 28.7 64 64l352 0c0-35.3 28.7-64 64-64l0-160c-35.3 0-64-28.7-64-64l-352 0zM0 128C0 92.7 28.7 64 64 64l448 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zM176 256a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm80-48c0 8.8 7.2 16 16 16l0 64-8 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l24 0 24 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-8 0 0-80c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16z"/>
+							</svg>
+						</button>
+						<span class="screen-reader-text">
+							Open CNX Donations in a new tab
+						</span>
+					</a>
+				</li>
+			</ul>
+			<div class="site-info">
+				© 2024&nbsp;
+				<span class="copyright">
+					CPAA, Inc. | Designed by 
+					<a href="https://ccsinc-online.com/">Corporate Communication Solutions</a>
+					<span class="Pulse">
+						<a href="https://www.youtube.com/@GlyphMusicOfficial" target="_new">(& Tim Delaney)</a>
+					</span>
+					<br>
+					<br>
+					<a href="https://www.connexusindependent.org/attribution/">Special Thanks</a>
+				</span>
+			</div>
+		</div>
+	</footer>
+  <!-- Smart Menus -->
+	<script type="text/javascript" src="java/jquery.smartmenus.min.js" id="bgtfw-smartmenus-js"></script>
+	
+  <!-- Montserrat -->
+	<link rel="stylesheet" href="fonts/Montserrat/Montserrat.css" type="text/css"/>
+	
+  <!-- Open-Sans -->
+	<link rel="stylesheet" href="fonts/Open-Sans/Open-Sans.css" type="text/css"/>
+	
+  <!-- Raleway -->
+	<link rel="stylesheet" href="fonts/Raleway/Raleway.css" type="text/css"/>
+	
+  <!-- Roboto -->
+	<link rel="stylesheet" href="fonts/Roboto/Roboto.css" type="text/css"/>
+
+  <!-- Other -->
+	<script type="text/javascript" id="boldgrid-custom-js"></script>
+	<script type="text/javascript">
+		(function() {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		}
+		)();
+	</script>
+	<link rel="stylesheet" id="wc-blocks-style-css" href="css/wc-blocks.css?ver=wc-9.3.3" type="text/css" media="all"/>
+	<script type="text/javascript" src="java/imagesloaded.min.js" id="imagesloaded-js"></script>
+	<script type="text/javascript" src="java/masonry.min.js" id="masonry-js"></script>
+	<script type="text/javascript" src="java/jquery.masonry.min.js" id="jquery-masonry-js"></script>
+	<script type="text/javascript" src="java/boldgrid-bootstrap-shim.min.js" id="bootstrap-scripts-js"></script>
+	<script type="text/javascript" src="java/bootstrap.min.js" id="boldgrid-bootstrap-bootstrap-js"></script>
+	<script type="text/javascript" src="java/modernizr.min.js" id="bgtfw-modernizr-js"></script>
+	<script type="text/javascript" src="java/float-labels.min.js" id="float-labels-js"></script>
+	<script type="text/javascript" src="java/sourcebuster.min.js" id="sourcebuster-js-js"></script>
+	<script type="text/javascript" id="wc-order-attribution-js-extra">
+		/* <![CDATA[ */
+		var wc_order_attribution = {
+			"params": {
+				"lifetime": 1.0e-5,
+				"session": 30,
+				"base64": false,
+				"ajaxurl": "https:\/\/www.connexusindependent.org\/wp-admin\/admin-ajax.php",
+				"prefix": "wc_order_attribution_",
+				"allowTracking": true
+			},
+			"fields": {
+				"source_type": "current.typ",
+				"referrer": "current_add.rf",
+				"utm_campaign": "current.cmp",
+				"utm_source": "current.src",
+				"utm_medium": "current.mdm",
+				"utm_content": "current.cnt",
+				"utm_id": "current.id",
+				"utm_term": "current.trm",
+				"utm_source_platform": "current.plt",
+				"utm_creative_format": "current.fmt",
+				"utm_marketing_tactic": "current.tct",
+				"session_entry": "current_add.ep",
+				"session_start_time": "current_add.fd",
+				"session_pages": "session.pgs",
+				"session_count": "udata.vst",
+				"user_agent": "udata.uag"
+			}
+		};
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="java/order-attribution.min.js" id="wc-order-attribution-js"></script>
+	<script type="text/javascript" src="java/smush-lazy-load.min.js" id="smush-lazy-load-js"></script>
+	<script type="text/javascript" id="boldgrid-editor-public-js-extra">
+		/* <![CDATA[ */
+		var BoldgridEditorPublic = {
+			"is_boldgrid_theme": "1",
+			"colors": {
+				"defaults": ["rgb(117, 214, 28)", "rgb(255, 255, 255)", "rgb(255, 255, 255)", "rgb(33, 137, 32)", "rgb(32, 32, 32)"],
+				"neutral": "rgb(255, 255, 255)"
+			},
+			"theme": "Crio"
+		};
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="java/public.min.js" id="boldgrid-editor-public-js"></script>
+	<script type="text/javascript" src="java/application.min.js" id="bgpbpp-public-js"></script>
+</html>
