@@ -5,9 +5,7 @@ Remove "X" from the "header-inner: background-image"
 	the "X" remains in the same place.
 
 
-pages to do: 8
-	CNX25 Schedule
-	CPAA Board
+pages to do: 6
 	ConneXion
 	Links & Sponsors
 	Donate
@@ -16,10 +14,12 @@ pages to do: 8
 	Auditions
 
 In Progress: 1
-	Percussion History
+	CPAA Board
 
-Pages done: 3
+Pages done: 5
 	Home
+	Percussion History
+	CNX25 Schedule
 	Staff
 	Store(Not Public)
 
