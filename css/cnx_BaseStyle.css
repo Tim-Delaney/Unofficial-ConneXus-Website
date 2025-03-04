@@ -1264,7 +1264,6 @@ ul.sub-menu li {
 	text-decoration-thickness: auto;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
-	/*text-transform: none;*/
 }
 
 .button1:before {
@@ -1277,7 +1276,6 @@ ul.sub-menu li {
 
 .button1:hover {
 	background-color: rgb(33, 33, 33);
-	/*border: 2px solid rgb(117, 212, 28);*/
 	border-bottom: 5px solid rgb(34, 136, 32);
 	border-right: 5px solid rgb(34, 136, 32);
 	border-left: 5px solid rgb(117, 212, 28);
@@ -1294,11 +1292,6 @@ ul.sub-menu li {
 	
 	font-size: 25px;
 }
-
-/*.top:after {
-	content: '\0020' '\2227';
-	font-size: 25px;
-}*/
 
 ::-webkit-scrollbar {
 	width: auto;
