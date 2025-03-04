@@ -4,6 +4,9 @@ Remove "X" from the "header-inner: background-image"
 	make it its own thing so if the page were to expand wider than the image,
 	the "X" remains in the same place.
 
+Fix "return to top" buttons on staff page
+	Everything after "Opperations Staff"
+
 pages to do: 8
 	CNX25 Schedule
 	CPAA Board
