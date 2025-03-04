@@ -526,12 +526,14 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
+	height: 100%;
 	line-height: 25.6px;
 	margin-bottom: 0px;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 0px;
 	min-height: 30px;
+	padding-bottom: 26px;
 	padding-top: 26px;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -675,6 +677,7 @@ li.show-link-menu-item {
 }
 
 .show-body-imp {
+	font-weight: bold;
 	text-decoration: underline;
 }
 
@@ -686,6 +689,7 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
+	height: 100%;
 	line-height: 25.6px;
 	min-height: 30px;
 	padding-left: 15px;
@@ -748,6 +752,32 @@ li.show-link-menu-item {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.show-img-odd {
+	aspect-ratio: auto 600 / 450;
+	border-bottom: 5px solid rgb(34, 136, 32);
+	border-right: 5px solid rgb(34, 136, 32);
+	border-left: 5px solid rgb(117, 212, 28);
+	border-top: 5px solid rgb(117, 212, 28);
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: inline;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	height: 300px;
+	line-height: 25.6px;
+	max-width: 100%;
+	overflow-clip-margin: content-box;
+	overflow-x: clip;
+	overflow-y: clip;
+	text-align: center;
+	text-size-adjust: 100%;
+	text-transform: none;
+	vertical-align: middle;
+	width: 278px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .show-accomp {
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
@@ -773,12 +803,12 @@ li.show-link-menu-item {
 
 .show-top {
 	color: rgb(117, 212, 28);
-	display: flex;
+	display: block;
 	font-family: Montserrat;
 	font-size: 20px;
 	height: 30%;
-	margin-bottom: auto;
-	margin-top: auto;
+	margin-bottom: 2em;
+	margin-top: 2em;
 }
 
 .show-top-span {
@@ -786,14 +816,4 @@ li.show-link-menu-item {
 	font-family: Montserrat;
 	font-size: 20px;
 	margin: auto;
-}
-
-.show-top-span:before {
-	content: '\2227';
-	font-size: 25px;
-}
-
-.show-top-span:after {
-	content: '\2227';
-	font-size: 25px;
 }
