@@ -25,7 +25,7 @@ body {
 	overflow-x: hidden;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
-	width: 1263.33px;
+	width: 100%;
 }
 
 svg {
@@ -180,9 +180,7 @@ header{
 
 .header_inner {
 	align-items: center;
-	background-image: url("../images/CNX_2025_Title_Card_v2_NoText.jpg");
-	background-position-x: 50%;
-	background-position-y: 50%;
+	background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(29, 34, 38));
 	border-bottom: 2.66667px solid rgb(117, 212, 28);
 	box-sizing: border-box;
 	color: rgb(67, 74, 86);
@@ -190,22 +188,57 @@ header{
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16.8px;
 	font-weight: 400;
-	height: 195px;
 	justify-content: space-between;
 	letter-spacing: normal;
 	line-height: 31.08px;
 	overflow-wrap: break-word;
-	padding-bottom: 34.9091px;
-	padding-left: 69.8182px;
-	padding-right: 69.8182px;
-	padding-top: 34.9091px;
+	padding-left: 3.5em;
+	padding-right: 0px;
 	position: relative;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
-	width: 1263.33px;
 	-webkit-box-align: center;
 	-webkit-box-pack: justify;
+}
+
+.header_inner:after {
+	content: url('../images/CNX_2025_Title_Card_X.png');
+	display: flex;
+	font-size: 16px;
+	height: 12.1875em;
+	order: 3;
+	position: relative;
+	width: 15.625em;
+}
+
+.title-nav {
+	align-items: center;
+	box-sizing: border-box;
+	color: rgb(67, 74, 86);
+	display: flex;
+	flex-basis: 40%;
+	flex-wrap: nowrap;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 16.8px;
+	font-weight: 400;
+	height: auto;
+	letter-spacing: normal;
+	line-height: 31.08px;
+	order: 1;
+	overflow-wrap: break-word;
+	text-rendering: optimizelegibility;
+	text-size-adjust: 100%;
+	unicode-bidi: isolate;
+	width: 25em;
+	-webkit-box-align: center;
+	-webkit-box-flex: 1;
+	-webkit-box-ordinal-group: 3;
+}
+
+.cnx-decor {
+	height: 98px;
+	width: 400px;
 }
 
 .header_extra {
@@ -214,8 +247,6 @@ header{
 	color: rgb(67, 74, 86);
 	display: flex;
 	flex-basis: 60%;
-	flex-grow: 0;
-	flex-shrink: 1;
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16.8px;
 	font-weight: 400;
@@ -224,8 +255,8 @@ header{
 	letter-spacing: normal;
 	line-height: 31.08px;
 	margin-left: 0px;
-	margin-right: 17%;
-	order: 3;
+	margin-right: 0px;
+	order: 2;
 	overflow-wrap: break-word;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
@@ -250,7 +281,7 @@ header{
 	display: flex;
 	font-size: 16.8px;
 	font-weight: 400;
-	height: auto;
+	height: 6.901em;
 	justify-content: space-between;
 	letter-spacing: normal;
 	line-height: 31.08px;
@@ -259,18 +290,18 @@ header{
 	list-style-type: none;
 	margin-bottom: 0px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 0em;
 	margin-top: 0px;
 	overflow-wrap: break-word;
-	padding-bottom: 5%;
-	padding-left: 7%;
-	padding-right: 7%;
-	padding-top: 5%;
+	padding-bottom: 1.387em;
+	padding-left: 1.942em;
+	padding-right: 1.942em;
+	padding-top: 1.387em;
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: auto;
+	width: 29.678em;
 }
 
 .header-social-icons:hover li a {
@@ -467,37 +498,6 @@ header{
 .header-social-icon_icon svg {
 	height: 42px;
 	width: 42px;
-}
-
-.title-nav {
-	align-items: center;
-	box-sizing: border-box;
-	color: rgb(67, 74, 86);
-	display: flex;
-	flex-basis: 40%;
-	flex-grow: 1;
-	flex-shrink: 0;
-	flex-wrap: nowrap;
-	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
-	font-weight: 400;
-	height: auto;
-	letter-spacing: normal;
-	line-height: 31.08px;
-	order: 2;
-	overflow-wrap: break-word;
-	text-rendering: optimizelegibility;
-	text-size-adjust: 100%;
-	unicode-bidi: isolate;
-	width: auto;
-	-webkit-box-align: center;
-	-webkit-box-flex: 1;
-	-webkit-box-ordinal-group: 3;
-}
-
-.cnx-decor {
-	height: 98px;
-	width: 400px;
 }
 
 .link-bar-wrapper {
@@ -1335,7 +1335,7 @@ footer {
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
-	width: auto;
+	width: 100%;
 }
 
 .site-footer {
@@ -1348,8 +1348,8 @@ footer {
 	height: auto;
 	letter-spacing: normal;
 	line-height: 31.08px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 1344px;
 	overflow-wrap: break-word;
 	text-align: center;
