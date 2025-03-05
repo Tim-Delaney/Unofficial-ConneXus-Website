@@ -1,9 +1,5 @@
 Switch all mesurments to em or %
 
-Remove "X" from the "header-inner: background-image"
-	make it its own thing so if the page were to expand wider than the image,
-	the "X" remains in the same place.
-
 
 pages to do: 6
 	ConneXion
