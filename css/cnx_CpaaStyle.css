@@ -185,7 +185,6 @@ reasons or is being used to label clustered parts of the code*/
 
 .board-content {
 	background-color: rgb(255, 255, 255); /*rgb(48, 48, 48);*/
-	border-bottom: 5px solid rgb(117, 212, 28);
 	margin-left: 46.6667px;
 	margin-right: 46.6667px;
 	padding-left: 15px;
@@ -365,7 +364,16 @@ li.board-link-menu-item {
 	transition: linear 0.2s;
 }
 
+.board-border {
+	background-color: rgb(0, 0, 0);
+	border-top: 5px solid rgb(117, 212, 28);
+	font-size: 16px;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
 .board-row {
+	background-color: rgb(0, 0, 0);
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
 	display: flex;
@@ -374,12 +382,10 @@ li.board-link-menu-item {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25.6px;
-	margin-bottom: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 0px;
 	min-height: 30px;
 	padding-bottom: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-top: 25px;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -602,29 +608,73 @@ li.board-link-menu-item {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.staff-other {
+.protection-col {
+	border-left: 0.666667px solid rgb(33, 137, 32);
 	box-sizing: border-box;
-	color: rgb(255, 255, 255);
+	color: rgb(51, 51, 51);
 	display: block;
-	font-family: Open Sans;
-	font-size: 14px;
+	float: left;
+	font-family: "Open Sans";
+	font-size: 16px;
 	font-weight: 400;
-	line-height: 22.4px;
+	line-height: 25.6px;
+	min-height: 30px;
+	padding-bottom: 32px;
+	padding-left: 32px;
+	padding-right: 16px;
+	padding-top: 0px;
+	position: relative;
+	text-size-adjust: 100%;
+	text-transform: none;
+	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.protection-h3 {
+	box-sizing: border-box;
+	color: rgb(117, 214, 28);
+	display: block;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: 400;
+	hyphens: manual;
+	line-height: 35.2px;
 	margin-block-end: 0px;
-	margin-block-start: 14px;
+	margin-block-start: 0px;
 	margin-bottom: 0px;
 	margin-inline-end: 0px;
 	margin-inline-start: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-top: 14px;
+	margin-top: 0.6em;
+	overflow-wrap: normal;
 	padding-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-top: 0px;
+	text-align: center;
 	text-size-adjust: 100%;
-	text-transform: none;
+	text-transform: uppercase;
 	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.protection-h3-text {
+	box-sizing: border-box;
+	color: rgb(117, 214, 28);
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: 400;
+	hyphens: manual;
+	line-height: 35.2px;
+	overflow-wrap: normal;
+	text-align: center;
+	text-decoration-color: rgb(117, 214, 28);
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-thickness: auto;
+	text-size-adjust: 100%;
+	text-transform: uppercase;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
