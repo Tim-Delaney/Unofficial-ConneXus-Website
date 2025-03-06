@@ -176,6 +176,7 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
+	width: 100%;
 }
 
 .header_inner {
@@ -198,6 +199,7 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
+	width: 100%;
 	-webkit-box-align: center;
 	-webkit-box-pack: justify;
 }
@@ -239,6 +241,11 @@ header{
 .cnx-decor {
 	height: 98px;
 	width: 400px;
+}
+
+.logo {
+	height: 5.238em;
+	width: 23.214em;
 }
 
 .header_extra {
