@@ -204,8 +204,7 @@ header{
 	-webkit-box-pack: justify;
 }
 
-.header_inner:after {
-	content: url('../images/CNX_2025_Title_Card_X.png');
+.X {
 	display: flex;
 	font-size: 16px;
 	height: 12.1875em;
@@ -227,6 +226,7 @@ header{
 	height: auto;
 	letter-spacing: normal;
 	line-height: 31.08px;
+	margin: auto;
 	order: 1;
 	overflow-wrap: break-word;
 	text-rendering: optimizelegibility;
@@ -248,7 +248,7 @@ header{
 	width: 23.214em;
 }
 
-.header_extra {
+.header-socials {
 	align-items: center;
 	box-sizing: border-box;
 	color: rgb(67, 74, 86);
@@ -261,8 +261,7 @@ header{
 	justify-content: flex-end;
 	letter-spacing: normal;
 	line-height: 31.08px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin: auto;
 	order: 2;
 	overflow-wrap: break-word;
 	text-rendering: optimizelegibility;
