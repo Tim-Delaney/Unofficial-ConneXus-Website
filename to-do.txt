@@ -1,8 +1,7 @@
 Switch all mesurments to em or %
 
 
-pages to do: 6
-	ConneXion
+pages to do: 5
 	Links & Sponsors
 	Donate
 	Winter Guard History
@@ -10,13 +9,14 @@ pages to do: 6
 	Auditions
 
 In Progress: 1
-	CPAA Board
+	ConneXion
 
-Pages done: 5
+Pages done: 6
 	Home
 	Percussion History
 	CNX25 Schedule
 	Staff
+	CPAA Board
 	Store(Not Public)
 
 
