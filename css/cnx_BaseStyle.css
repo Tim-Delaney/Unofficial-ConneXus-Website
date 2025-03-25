@@ -193,8 +193,6 @@ header{
 	letter-spacing: normal;
 	line-height: 31.08px;
 	overflow-wrap: break-word;
-	padding-left: 3.5em;
-	padding-right: 0px;
 	position: relative;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
@@ -204,29 +202,23 @@ header{
 	-webkit-box-pack: justify;
 }
 
-.X {
-	display: flex;
-	font-size: 16px;
-	height: 12.1875em;
-	order: 3;
-	position: relative;
-	width: 15.625em;
-}
-
 .title-nav {
 	align-items: center;
 	box-sizing: border-box;
 	color: rgb(67, 74, 86);
 	display: flex;
-	flex-basis: 40%;
+	flex-basis: auto;
+	flex-grow: 1;
 	flex-wrap: nowrap;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: auto;
+	height: 6.125em;
+	justify-content: center;
 	letter-spacing: normal;
 	line-height: 31.08px;
-	margin: auto;
+	margin-left: 1em;
+	margin-right: 0.5em;
 	order: 1;
 	overflow-wrap: break-word;
 	text-rendering: optimizelegibility;
@@ -239,13 +231,15 @@ header{
 }
 
 .cnx-decor {
-	height: 98px;
-	width: 400px;
+	font-size: 16px;
+	height: 6.125em;
+	width: 25em;
 }
 
 .logo {
-	height: 5.238em;
-	width: 23.214em;
+	font-size: 16px;
+	height: 5.5em;
+	width: 24.375em;
 }
 
 .header-socials {
@@ -253,21 +247,22 @@ header{
 	box-sizing: border-box;
 	color: rgb(67, 74, 86);
 	display: flex;
-	flex-basis: 60%;
+	flex-basis: auto;
+	flex-grow: 1;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: auto;
-	justify-content: flex-end;
+	height: 7.25em;
+	justify-content: center;
 	letter-spacing: normal;
 	line-height: 31.08px;
-	margin: auto;
+	/*margin: auto;*/
 	order: 2;
 	overflow-wrap: break-word;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
-	width: auto;
+	width: 31.15625em;
 	z-index: 9999;
 	-webkit-box-align: center;
 	-webkit-box-flex: 0;
@@ -285,19 +280,15 @@ header{
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
 	display: flex;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: 6.901em;
-	justify-content: space-between;
+	height: 7.25em;
+	justify-content: center;
 	letter-spacing: normal;
 	line-height: 31.08px;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-	margin-bottom: 0px;
-	margin-left: auto;
-	margin-right: 0em;
-	margin-top: 0px;
 	overflow-wrap: break-word;
 	padding-bottom: 1.387em;
 	padding-left: 1.942em;
@@ -307,7 +298,7 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: 29.678em;
+	width: auto;
 }
 
 .header-social-icons:hover li a {
@@ -341,128 +332,138 @@ header{
 }
 
 .header-social-icon-facebook{
-	border-left: 4px solid rgb(117, 212, 28);
-	border-right: 2px solid rgb(117, 212, 28);
+	align-items: center;
+	border-left: 2px solid rgb(117, 212, 28);
+	border-right: 1px solid rgb(117, 212, 28);
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
-	display: inline-block;
+	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: auto;
+	height: 3.75em;
+	justify-content: center;
 	letter-spacing: normal;
 	line-height: 31.08px;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
 	overflow-wrap: break-word;
-	padding-left: 10px;
-	padding-right: 10px;
+	/*padding-left: 0.625em;
+	padding-right: 0.625em;*/
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: auto;
+	width: 3.75em;
 }
 
 .header-social-icon-twitter{
-	border-left: 2px solid rgb(117, 212, 28);
-	border-right: 2px solid rgb(117, 212, 28);
+	align-items: center;
+	border-left: 1px solid rgb(117, 212, 28);
+	border-right: 1px solid rgb(117, 212, 28);
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
-	display: inline-block;
+	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: auto;
+	height: 3.75em;
+	justify-content: center;
 	letter-spacing: normal;
 	line-height: 31.08px;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
 	overflow-wrap: break-word;
-	padding-left: 10px;
-	padding-right: 10px;
+	/*padding-left: 0.625em;
+	padding-right: 0.625em;*/
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: auto;
+	width: 3.75em;
 }
 
 .header-social-icon-instagram{
-	border-left: 2px solid rgb(117, 212, 28);
-	border-right: 2px solid rgb(117, 212, 28);
+	align-items: center;
+	border-left: 1px solid rgb(117, 212, 28);
+	border-right: 1px solid rgb(117, 212, 28);
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
-	display: inline-block;
+	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: auto;
+	height: 3.75em;
+	justify-content: center;
 	letter-spacing: normal;
 	line-height: 31.08px;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
 	overflow-wrap: break-word;
-	padding-left: 10px;
-	padding-right: 10px;
+	/*padding-left: 0.625em;
+	padding-right: 0.625em;*/
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: auto;
+	width: 3.75em;
 }
 
 .header-social-icon-youtube{
-	border-left: 2px solid rgb(117, 212, 28);
-	border-right: 2px solid rgb(117, 212, 28);
+	align-items: center;
+	border-left: 1px solid rgb(117, 212, 28);
+	border-right: 1px solid rgb(117, 212, 28);
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
-	display: inline-block;
+	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: auto;
+	height: 3.75em;
+	justify-content: center;
 	letter-spacing: normal;
 	line-height: 31.08px;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
 	overflow-wrap: break-word;
-	padding-left: 10px;
-	padding-right: 10px;
+	/*padding-left: 0.625em;
+	padding-right: 0.625em;*/
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: auto;
+	width: 3.75em;
 }
 
 .header-social-icon-donate {
-	border-left: 2px solid rgb(117, 212, 28);
-	border-right: 4px solid rgb(117, 212, 28);
+	align-items: center;
+	border-left: 1px solid rgb(117, 212, 28);
+	border-right: 2px solid rgb(117, 212, 28);
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
-	display: inline-block;
+	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: auto;
+	height: 3.75em;
+	justify-content: center;
 	letter-spacing: normal;
 	line-height: 31.08px;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
 	overflow-wrap: break-word;
-	padding-left: 10px;
-	padding-right: 10px;
+	/*padding-left: 0.625em;
+	padding-right: 0.625em;*/
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: auto;
+	width: 3.75em;
 }
 
 .header-social-icon_icon {
@@ -473,9 +474,9 @@ header{
 	cursor: pointer;
 	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: 60px;
+	height: 3.75em;
 	justify-content: center;
 	letter-spacing: normal;
 	line-height: 31.08px;
@@ -496,14 +497,27 @@ header{
 	transition-duration: 0.2s;
 	transition-property: opacity;
 	transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
-	width: 60px;
+	width: 3.75em;
 	-webkit-box-align: center;
 	-webkit-box-pack: center;
 }
 
 .header-social-icon_icon svg {
-	height: 42px;
-	width: 42px;
+	font-size: 16px;
+	height: 2em;
+	width: 2em;
+}
+
+.X {
+	display: flex;
+	flex-basis: auto;
+	flex-grow: 1;
+	font-size: 16px;
+	height: 12.1875em;
+	justify-content: flex-end;
+	order: 3;
+	position: relative;
+	width: 15.625em;
 }
 
 .link-bar-wrapper {
@@ -1080,9 +1094,10 @@ ul.sub-menu li {
 
 .title-card {
 	align-items: center;
-	background-image: url("myself_again-header.png");/*"remnant-header.png"*/
+	background-image: url("cnx_show-header.png");/* "myself_again-header.png" "remnant-header.png" */
 	/*This image can change to match the show theme every year.
 	MUST be saved in the css folder AND the aspect-ratio MUST be 1263px x 168px */
+	background-position: center;
 	border-bottom: 6px solid rgb(117, 214, 28);
 	border-top: 3px solid rgb(117, 212, 28);
 	box-sizing: border-box;
@@ -1202,10 +1217,11 @@ ul.sub-menu li {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
-	padding-bottom: 12px;
-	padding-left: 12px;
-	padding-right: 12px;
-	padding-top: 12px;
+	font-size: 16px;
+	padding-bottom: 0.75em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	padding-top: 0.75em;
 }
 
 .glow-button svg {
