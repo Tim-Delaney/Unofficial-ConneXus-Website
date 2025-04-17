@@ -12,12 +12,12 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	margin-left: 0px;
-	margin-right: 0px;
-	min-height: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
+	line-height: 1.6em;
+	margin-left: 0em;
+	margin-right: 0em;
+	min-height: 1.875em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -31,16 +31,16 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-left: 26.6667px;
-	margin-right: 26.6667px;
+	line-height: 1.6em;
+	margin-left: 1.66666875em;
+	margin-right: 1.66666875em;
 	max-width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 1170px;
+	width: 73.125em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -52,7 +52,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -67,7 +67,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -81,14 +81,14 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-bottom: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 0px;
-	min-height: 30px;
-	padding-bottom: 26px;
-	padding-top: 34px;
+	line-height: 1.6em;
+	margin-bottom: 0em;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+	margin-top: 0em;
+	min-height: 1.875em;
+	padding-bottom: 1.625em;
+	padding-top: 2.125em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -103,17 +103,17 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	margin-left: auto;
 	margin-right: auto;
-	min-height: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+	min-height: 1.875em;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 916.656px;
+	width: 57.291em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -126,12 +126,12 @@ reasons or is being used to label clustered parts of the code*/
 	font-weight: 600;
 	hyphens: manual;
 	line-height: 55px;
-	margin-block-end: 10px;
-	margin-block-start: 20px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-top: 20px;
+	margin-block-end: 0.2em;
+	margin-block-start: 0.4em;
+	margin-bottom: 0.2em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-top: 0.4em;
 	overflow-wrap: normal;
 	text-align: center;
 	text-shadow: rgba(140, 140, 140, 0.6) 1px 1px 0px, rgba(0, 0, 0, 0.67) -1px -1px 1px;
@@ -149,18 +149,18 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 40px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 44px;
-	margin-block-end: 10px;
-	margin-block-start: 20px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-top: 20px;
+	line-height: 1.1em;
+	margin-block-end: 0.25em;
+	margin-block-start: 0.5em;
+	margin-bottom: 0.25em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-top: 0.5em;
 	overflow-wrap: normal;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 40px;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 1em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: uppercase;
@@ -175,15 +175,15 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-block-end: 10px;
-	margin-block-start: 0px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+	line-height: 1.6em;
+	margin-block-end: 0.625em;
+	margin-block-start: 0em;
+	margin-bottom: 0.625em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -197,7 +197,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: Open Sans;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -211,15 +211,15 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: Open Sans;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-block-end: 10px;
-	margin-block-start: 0px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+	line-height: 1.6em;
+	margin-block-end: 0.625em;
+	margin-block-start: 0em;
+	margin-bottom: 0.625em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -247,13 +247,13 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 35px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 38.5px;
-	margin-block-end: 10px;
-	margin-block-start: 20px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-top: 20px;
+	line-height: 1.1em;
+	margin-block-end: 0.2857142857142857em;
+	margin-block-start: 0.5714285714285714em;
+	margin-bottom: 0.2857142857142857em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-top: 0.5714285714285714em;
 	overflow-wrap: normal;
 	text-align: center;
 	text-size-adjust: 100%;
@@ -270,15 +270,15 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-style: italic;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-block-end: 10px;
-	margin-block-start: 0px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+	line-height: 1.6em;
+	margin-block-end: 0.625em;
+	margin-block-start: 0em;
+	margin-bottom: 0.625em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: capitalize;
@@ -298,12 +298,12 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	margin-left: 0px;
-	margin-right: 0px;
-	min-height: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
+	line-height: 1.6em;
+	margin-left: 0em;
+	margin-right: 0em;
+	min-height: 1.875em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -320,16 +320,16 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	margin-left: 0px;
-	margin-right: 0px;
+	line-height: 1.6em;
+	margin-left: 0em;
+	margin-right: 0em;
 	max-width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0em;
+	padding-right: 0em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 1100px;
+	width: auto;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -341,7 +341,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -356,7 +356,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -379,18 +379,19 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	height: auto;
+	line-height: 1.6em;
 	margin-left: auto;
 	margin-right: auto;
-	min-height: 30px;
-	padding-left: 0px;
-	padding-right: 0px;
+	min-height: 1.875em;
+	padding-left: 0em;
+	padding-right: 0em;
 	position: relative;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 366.656px;
+	width: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -411,19 +412,19 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-block-end: 15px;
-	margin-block-start: 15px;
-	margin-bottom: 15px;
-	margin-inline-end: 15px;
-	margin-inline-start: 15px;
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-top: 15px;
-	padding-bottom: 16px;
-	padding-left: 16px;
-	padding-right: 16px;
-	padding-top: 16px;
+	line-height: 1.6em;
+	margin-block-end: 0.9375em;
+	margin-block-start: 0.9375em;
+	margin-bottom: 0.9375em;
+	margin-inline-end: 0.9375em;
+	margin-inline-start: 0.9375em;
+	margin-left: 0.9375em;
+	margin-right: 0.9375em;
+	margin-top: 0.9375em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
 	position: relative;
 	text-align: center;
 	text-size-adjust: 100%;
@@ -450,8 +451,8 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 180.438px;
-	line-height: 25.6px;
+	height: auto;
+	line-height: 1.6em;
 	max-width: 100%;
 	overflow-clip-margin: content-box;
 	overflow-x: clip;
@@ -460,8 +461,11 @@ reasons or is being used to label clustered parts of the code*/
 	text-size-adjust: 100%;
 	text-transform: none;
 	vertical-align: middle;
-	width: 270.656px;
+	width: 100%
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	
+	/*height: 180.438px;
+	width: 270.656px;*/
 }
 
 .info-title-box {
@@ -472,13 +476,13 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 19px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 20.9px;
-	margin-block-end: 10px;
-	margin-block-start: 10px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-top: 10px;
+	line-height: 1.0999999999999999em;
+	margin-block-end: 0.5263157894736842em;
+	margin-block-start: 0.5263157894736842em;
+	margin-bottom: 0.5263157894736842em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-top: 0.5263157894736842em;
 	overflow-wrap: normal;
 	text-align: center;
 	text-size-adjust: 100%;
@@ -496,13 +500,13 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	margin-bottom: 50px;
-	margin-left: 26.6667px;
-	margin-right: 26.6667px;
+	line-height: 1.6em;
+	margin-bottom: 3.125em;
+	margin-left: 1.66666875em;
+	margin-right: 1.66666875em;
 	max-width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -516,27 +520,25 @@ reasons or is being used to label clustered parts of the code*/
 	color: rgb(255, 255, 255);
 	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: 10%;
 	justify-content: space-between;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
-	margin-bottom: 5px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 5px;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
+	margin-bottom: 0.3125em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0.3125em;
 	overflow-wrap: break-word;
-	padding-inline-start: 33.8229px;
-	padding-left: 33.8229px;
-	padding-right: 33.8229px;
+	padding-inline-start: 0em;
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
@@ -567,12 +569,12 @@ reasons or is being used to label clustered parts of the code*/
 	color: rgb(255, 255, 255);
 	display: flex;
 	font-family: Montserrat; /*"Nunito Sans", sans-serif;*/
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 37.8px;
+	line-height: 2.3625em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -599,14 +601,14 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	margin-bottom: 10%;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
-	min-height: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
+	min-height: 1.875em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -621,12 +623,12 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	margin-left: 26.6667px;
-	margin-right: 26.6667px;
+	line-height: 1.6em;
+	margin-left: 1.66666875em;
+	margin-right: 1.66666875em;
 	max-width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -642,7 +644,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -657,7 +659,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -671,14 +673,14 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-bottom: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 0px;
-	min-height: 30px;
-	padding-bottom: 0px;
-	padding-top: 50px;
+	line-height: 1.6em;
+	margin-bottom: 0em;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+	margin-top: 0em;
+	min-height: 1.875em;
+	padding-bottom: 0em;
+	padding-top: 3.125em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -692,7 +694,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	width: 0px;
@@ -708,7 +710,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	width: 0px;
@@ -723,10 +725,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	position: relative;
 	text-align: center;
 	text-size-adjust: 100%;
@@ -744,13 +746,13 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 40px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 44px;
-	margin-block-end: 10px;
-	margin-block-start: 20px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-top: 20px;
+	line-height: 1.1em;
+	margin-block-end: 0.25em;
+	margin-block-start: 0.5em;
+	margin-bottom: 0.25em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-top: 0.5em;
 	overflow-wrap: normal;
 	text-align: center;
 	text-size-adjust: 100%;
@@ -767,7 +769,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 40px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 44px;
+	line-height: 1.1em;
 	overflow-wrap: normal;
 	text-align: center;
 	text-size-adjust: 100%;
@@ -784,12 +786,12 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	min-height: 15px;
+	line-height: 1.6em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
+	min-height: 0.9375em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -805,11 +807,11 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -822,11 +824,11 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -838,10 +840,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 15px;
-	padding-left: 0px;
-	padding-right: 0px;
+	line-height: 1.6em;
+	min-height: 0.9375em;
+	padding-left: 0em;
+	padding-right: 0em;
 	position: relative;
 	text-align: center;
 	text-size-adjust: 100%;
@@ -875,8 +877,8 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 0px;
-	line-height: 25.6px;
+	height: 0em;
+	line-height: 1.6em;
 	overflow-x: visible;
 	overflow-y: visible;
 	position: relative;
@@ -884,11 +886,12 @@ reasons or is being used to label clustered parts of the code*/
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 267.5px;
+	width: 16.71875em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .spon-row {
+	align-items: center;
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
 	display: flex;
@@ -896,14 +899,14 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-bottom: 0px;
+	line-height: 1.6em;
+	margin-bottom: auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
-	min-height: 30px;
-	padding-bottom: 75px;
-	padding-top: 75px;
+	margin-top: auto;
+	min-height: 1.875em;
+	padding-bottom: 4.6875em;
+	padding-top: 4.6875em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -918,11 +921,11 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	margin-left: auto;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -935,23 +938,24 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	margin-right: auto;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .sponser-grid {
 	display: inline-grid;
 	gap: 16px;
-	grid-template-columns: 25% 25% 25% 25%;
-	justify-content: space-between;
-	width: 842px;
+	grid-template-columns: auto auto auto auto;
+	justify-items: center;
+	width: auto;
 }
 
 .sponser {
+	align-items: center;
 	box-sizing: border-box;
 	color: rgb(67, 74, 86);
 	display: flex;
@@ -961,34 +965,35 @@ reasons or is being used to label clustered parts of the code*/
 	flex-shrink: 0;
 	float: none;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
+	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
 	margin-bottom: auto;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 0em;
+	margin-right: 0em;
 	margin-top: auto;
-	max-width: calc(33.3333% - 32px);
+	/*max-width: calc(33.3333% - 32px);*/
 	overflow-wrap: break-word;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
 	position: relative;
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
-	width: 210.5px;
+	width: 80%;
 }
 
 .spon-box {
-	align-self: flex-start;
+	align-self: center;
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
 	display: block;
@@ -996,15 +1001,15 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+	height: auto;
+	line-height: 1.6em;
+	padding-left: auto;
+	padding-right: auto;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 183.333px;
+	width: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -1016,19 +1021,19 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 0px;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
-	margin-bottom: 0px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
+	line-height: 0em;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
+	margin-bottom: 0em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -1038,6 +1043,12 @@ reasons or is being used to label clustered parts of the code*/
 .spon-box2:hover {
 	box-shadow: rgba(117, 212, 28, 0) 0px 0px 0px 0px inset;
 	filter: drop-shadow(0 0 10px rgba(117, 212, 28, 0.8));
+}
+
+.spon-box2 a {
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 
 .spon-img-fjm {
@@ -1060,11 +1071,11 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 89.5px;
+	height: auto;
 	line-height: 0px;
 	margin-bottom: auto;
-	margin-left: 6.66667px;
-	margin-right: 6.66667px;
+	/*margin-left: 6.66667px;
+	margin-right: 6.66667px;*/
 	margin-top: auto;
 	max-width: 100%;
 	opacity: 1;
@@ -1083,7 +1094,7 @@ reasons or is being used to label clustered parts of the code*/
 	transition-property: opacity;
 	transition-timing-function: ease;
 	vertical-align: middle;
-	width: 140px;
+	width: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -1107,11 +1118,11 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 42.625px;
+	height: auto;
 	line-height: 0px;
 	margin-bottom: auto;
-	margin-left: 0px;
-	margin-right: 0px;
+	/*margin-left: 0px;
+	margin-right: 0px;*/
 	margin-top: auto;
 	max-width: 100%;
 	opacity: 1;
@@ -1130,142 +1141,7 @@ reasons or is being used to label clustered parts of the code*/
 	transition-property: opacity;
 	transition-timing-function: ease;
 	vertical-align: middle;
-	width: 153.333px;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.spon-img-sabian {
-	aspect-ratio: auto 135 / 100;
-	border-bottom: 2.66667px solid rgb(255, 255, 255);
-	border-image-outset: 0;
-	border-image-repeat: stretch;
-	border-image-slice: 100%;
-	border-image-source: none;
-	border-image-width: 1;
-	border-left: 2.66667px solid rgb(255, 255, 255);
-	border-right: 2.66667px solid rgb(255, 255, 255);
-	border-top: 2.66667px solid rgb(255, 255, 255);
-	box-shadow: rgb(85, 85, 85) 0px 0px 1px 0px, rgb(85, 85, 85) 0px 5px 5px 0px;
-	box-sizing: border-box;
-	clear: both;
-	color: rgb(117, 212, 28);
-	cursor: pointer;
-	display: block;
-	font-family: "Open Sans";
-	font-size: 16px;
-	font-weight: 400;
-	height: 101.375px;
-	line-height: 0px;
-	margin-left: 9.16667px;
-	margin-right: 9.16667px;
-	max-width: 100%;
-	opacity: 1;
-	overflow-clip-margin: content-box;
-	overflow-x: clip;
-	overflow-y: clip;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
-	text-size-adjust: 100%;
-	text-transform: none;
-	transition-behavior: normal;
-	transition-delay: 0s;
-	transition-duration: 0.4s;
-	transition-property: opacity;
-	transition-timing-function: ease;
-	vertical-align: middle;
-	width: 135px;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.spon-img-pi {
-	aspect-ratio: auto 137 / 137;
-	border-bottom: 2.66667px solid rgb(255, 255, 255);
-	border-image-outset: 0;
-	border-image-repeat: stretch;
-	border-image-slice: 100%;
-	border-image-source: none;
-	border-image-width: 1;
-	border-left: 2.66667px solid rgb(255, 255, 255);
-	border-right: 2.66667px solid rgb(255, 255, 255);
-	border-top: 2.66667px solid rgb(255, 255, 255);
-	box-shadow: rgb(85, 85, 85) 0px 0px 1px 0px, rgb(85, 85, 85) 0px 5px 5px 0px;
-	box-sizing: border-box;
-	clear: both;
-	color: rgb(117, 212, 28);
-	cursor: pointer;
-	display: block;
-	font-family: "Open Sans";
-	font-size: 16px;
-	font-weight: 400;
-	height: 137px;
-	line-height: 0px;
-	margin-left: 8.16667px;
-	margin-right: 8.16667px;
-	max-width: 100%;
-	opacity: 1;
-	overflow-clip-margin: content-box;
-	overflow-x: clip;
-	overflow-y: clip;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
-	text-size-adjust: 100%;
-	text-transform: none;
-	transition-behavior: normal;
-	transition-delay: 0s;
-	transition-duration: 0.4s;
-	transition-property: opacity;
-	transition-timing-function: ease;
-	vertical-align: middle;
-	width: 137px;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.spon-img-evans {
-	aspect-ratio: auto 134 / 84;
-	border-bottom: 2.66667px solid rgb(255, 255, 255);
-	border-image-outset: 0;
-	border-image-repeat: stretch;
-	border-image-slice: 100%;
-	border-image-source: none;
-	border-image-width: 1;
-	border-left: 2.66667px solid rgb(255, 255, 255);
-	border-right: 2.66667px solid rgb(255, 255, 255);
-	border-top: 2.66667px solid rgb(255, 255, 255);
-	box-shadow: rgb(85, 85, 85) 0px 0px 1px 0px, rgb(85, 85, 85) 0px 5px 5px 0px;
-	box-sizing: border-box;
-	clear: both;
-	color: rgb(117, 214, 28);
-	cursor: pointer;
-	display: block;
-	font-family: "Open Sans";
-	font-size: 16px;
-	font-weight: 400;
-	height: 85.75px;
-	line-height: 0px;
-	margin-left: 9.66667px;
-	margin-right: 9.66667px;
-	max-width: 100%;
-	opacity: 1;
-	overflow-clip-margin: content-box;
-	overflow-x: clip;
-	overflow-y: clip;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
-	text-size-adjust: 100%;
-	text-transform: none;
-	transition-behavior: normal;
-	transition-delay: 0s;
-	transition-duration: 0.4s;
-	transition-property: opacity;
-	transition-timing-function: ease;
-	vertical-align: middle;
-	width: 134px;
+	width: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -1289,10 +1165,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 29.625px;
+	height: auto;
 	line-height: 0px;
-	margin-left: 1.66667px;
-	margin-right: 1.66667px;
+	/*margin-left: 1.66667px;
+	margin-right: 1.66667px;*/
 	max-width: 100%;
 	opacity: 1;
 	overflow-clip-margin: content-box;
@@ -1310,7 +1186,142 @@ reasons or is being used to label clustered parts of the code*/
 	transition-property: opacity;
 	transition-timing-function: ease;
 	vertical-align: middle;
-	width: 150px;
+	width: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.spon-img-pi {
+	aspect-ratio: auto 137 / 137;
+	border-bottom: 2.66667px solid rgb(255, 255, 255);
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left: 2.66667px solid rgb(255, 255, 255);
+	border-right: 2.66667px solid rgb(255, 255, 255);
+	border-top: 2.66667px solid rgb(255, 255, 255);
+	box-shadow: rgb(85, 85, 85) 0px 0px 1px 0px, rgb(85, 85, 85) 0px 5px 5px 0px;
+	box-sizing: border-box;
+	clear: both;
+	color: rgb(117, 212, 28);
+	cursor: pointer;
+	display: block;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;
+	line-height: 0px;
+	/*margin-left: 8.16667px;
+	margin-right: 8.16667px;*/
+	max-width: 100%;
+	opacity: 1;
+	overflow-clip-margin: content-box;
+	overflow-x: clip;
+	overflow-y: clip;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	transition-behavior: normal;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: opacity;
+	transition-timing-function: ease;
+	vertical-align: middle;
+	width: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.spon-img-evans {
+	aspect-ratio: auto 134 / 84;
+	border-bottom: 2.66667px solid rgb(255, 255, 255);
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left: 2.66667px solid rgb(255, 255, 255);
+	border-right: 2.66667px solid rgb(255, 255, 255);
+	border-top: 2.66667px solid rgb(255, 255, 255);
+	box-shadow: rgb(85, 85, 85) 0px 0px 1px 0px, rgb(85, 85, 85) 0px 5px 5px 0px;
+	box-sizing: border-box;
+	clear: both;
+	color: rgb(117, 214, 28);
+	cursor: pointer;
+	display: block;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;
+	line-height: 0px;
+	/*margin-left: 9.66667px;
+	margin-right: 9.66667px;*/
+	max-width: 100%;
+	opacity: 1;
+	overflow-clip-margin: content-box;
+	overflow-x: clip;
+	overflow-y: clip;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	transition-behavior: normal;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: opacity;
+	transition-timing-function: ease;
+	vertical-align: middle;
+	width: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.spon-img-sabian {
+	aspect-ratio: auto 135 / 100;
+	border-bottom: 2.66667px solid rgb(255, 255, 255);
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left: 2.66667px solid rgb(255, 255, 255);
+	border-right: 2.66667px solid rgb(255, 255, 255);
+	border-top: 2.66667px solid rgb(255, 255, 255);
+	box-shadow: rgb(85, 85, 85) 0px 0px 1px 0px, rgb(85, 85, 85) 0px 5px 5px 0px;
+	box-sizing: border-box;
+	clear: both;
+	color: rgb(117, 212, 28);
+	cursor: pointer;
+	display: block;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;
+	line-height: 0px;
+	/*margin-left: 9.16667px;
+	margin-right: 9.16667px;*/
+	max-width: 100%;
+	opacity: 1;
+	overflow-clip-margin: content-box;
+	overflow-x: clip;
+	overflow-y: clip;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	text-size-adjust: 100%;
+	text-transform: none;
+	transition-behavior: normal;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: opacity;
+	transition-timing-function: ease;
+	vertical-align: middle;
+	width: 60%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -1334,10 +1345,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 63px;
+	height: auto;
 	line-height: 0px;
-	margin-left: 1.66667px;
-	margin-right: 1.66667px;
+	/*margin-left: 1.66667px;
+	margin-right: 1.66667px;*/
 	max-width: 100%;
 	opacity: 1;
 	overflow-clip-margin: content-box;
@@ -1355,7 +1366,7 @@ reasons or is being used to label clustered parts of the code*/
 	transition-property: opacity;
 	transition-timing-function: ease;
 	vertical-align: middle;
-	width: 153px;
+	width: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -1379,10 +1390,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 77.4583px;
+	height: auto;
 	line-height: 0px;
-	margin-left: 8.66667px;
-	margin-right: 8.66667px;
+	/*margin-left: 8.66667px;
+	margin-right: 8.66667px;*/
 	max-width: 100%;
 	opacity: 1;
 	overflow-clip-margin: content-box;
@@ -1400,6 +1411,6 @@ reasons or is being used to label clustered parts of the code*/
 	transition-property: opacity;
 	transition-timing-function: ease;
 	vertical-align: middle;
-	width: 136px;
+	width: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

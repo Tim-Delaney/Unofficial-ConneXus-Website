@@ -13,14 +13,14 @@ body {
 	color: rgb(67, 74, 86);
 	display: block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: normal;
-	line-height: 31.08px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+	line-height: 1.9425em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
 	overflow-wrap: break-word;
 	overflow-x: hidden;
 	text-rendering: optimizelegibility;
@@ -35,11 +35,11 @@ svg {
 	display: block;
 	fill: rgb(117, 212, 28);
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: 21.5938px;
+	height: 1.3496125em;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -51,7 +51,7 @@ svg {
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	vertical-align: middle;
-	width: 21.5938px;
+	width: 1.3496125em;
 }
 
 meta {
@@ -59,11 +59,11 @@ meta {
 	color: rgb(67, 74, 86);
 	display: none;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	overflow-wrap: break-word;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
@@ -104,7 +104,7 @@ a:hover {
 	font-feature-settings: normal;
 	font-kerning: auto;
 	font-optical-sizing: auto;
-	font-size: 20.8px;
+	font-size: 20px;
 	font-size-adjust: none;
 	font-stretch: 100%;
 	font-style: normal;
@@ -116,18 +116,18 @@ a:hover {
 	font-variant-position: normal;
 	font-variation-settings: normal;
 	font-weight: 500;
-	height: 1px;
+	height: 0.05em;
 	letter-spacing: normal;
-	line-height: 20.8px;
-	margin: -1px;
+	line-height: 1.04em;
+	margin: -0.05em;
 	overflow: hidden;
 	overflow-wrap: normal!important;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	padding: 0px;
+	padding: 0em;
 	position: absolute!important;
 	text-align: center;
-	text-indent: 0px;
+	text-indent: 0em;
 	text-rendering: auto;
 	text-shadow: none;
 	text-size-adjust: 100%;
@@ -138,7 +138,7 @@ a:hover {
 	transition-property: none;
 	transition-timing-function: ease;
 	-webkit-clip-path: inset(50%);
-	width: 1px;
+	width: 0.05em;
 	word-spacing: 0px;
 	word-wrap: normal!important;
 }
@@ -187,11 +187,11 @@ header{
 	color: rgb(67, 74, 86);
 	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	justify-content: space-between;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	overflow-wrap: break-word;
 	position: relative;
 	text-rendering: optimizelegibility;
@@ -213,10 +213,10 @@ header{
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	height: 6.125em;
+	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	margin-left: 1em;
 	margin-right: 0.5em;
 	order: 1;
@@ -224,7 +224,7 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
-	width: 25em;
+	width: 100%;
 	-webkit-box-align: center;
 	-webkit-box-flex: 1;
 	-webkit-box-ordinal-group: 3;
@@ -232,14 +232,15 @@ header{
 
 .cnx-decor {
 	font-size: 16px;
-	height: 6.125em;
-	width: 25em;
+	/*height: 6.125em;
+	width: 25em;*/
 }
 
 .logo {
 	font-size: 16px;
-	height: 5.5em;
-	width: 24.375em;
+	height: auto;
+	width: 100%;
+	/*width: 24.375em;*/
 }
 
 .header-socials {
@@ -253,9 +254,9 @@ header{
 	font-size: 16px;
 	font-weight: 400;
 	height: 7.25em;
-	justify-content: center;
+	justify-content: flex-end;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	/*margin: auto;*/
 	order: 2;
 	overflow-wrap: break-word;
@@ -282,10 +283,10 @@ header{
 	display: flex;
 	font-size: 16px;
 	font-weight: 400;
-	height: 7.25em;
-	justify-content: center;
+	height: auto;
+	justify-content: flex-end;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -341,10 +342,10 @@ header{
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	height: 3.75em;
+	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -355,7 +356,10 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: 3.75em;
+	width: 25%;
+	
+	/*height: 3.75em;
+	width: 3.75em;*/
 }
 
 .header-social-icon-twitter{
@@ -368,10 +372,10 @@ header{
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	height: 3.75em;
+	height: 80%;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -382,7 +386,10 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: 3.75em;
+	width: 25%;
+	
+	/*height: 3.75em;
+	width: 3.75em;*/
 }
 
 .header-social-icon-instagram{
@@ -395,10 +402,10 @@ header{
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	height: 3.75em;
+	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -409,7 +416,10 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: 3.75em;
+	width; 25%;
+	
+	/*height: 3.75em;
+	width: 3.75em;*/
 }
 
 .header-social-icon-youtube{
@@ -422,10 +432,10 @@ header{
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	height: 3.75em;
+	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -436,7 +446,10 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: 3.75em;
+	width: 25%;
+	
+	/*height: 3.75em;
+	width: 3.75em;*/
 }
 
 .header-social-icon-donate {
@@ -449,10 +462,10 @@ header{
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	height: 3.75em;
+	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -463,7 +476,10 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: 100%;
-	width: 3.75em;
+	width: 25%;
+	
+	/*height: 3.75em;
+	width: 3.75em;*/
 }
 
 .header-social-icon_icon {
@@ -479,7 +495,7 @@ header{
 	height: 3.75em;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -504,8 +520,8 @@ header{
 
 .header-social-icon_icon svg {
 	font-size: 16px;
-	height: 2em;
-	width: 2em;
+	height: auto;
+	width: 70%;
 }
 
 .X {
@@ -533,7 +549,7 @@ header{
 	font-size: 14px;
 	height: auto;
 	justify-content: center;
-	line-height: 20px;
+	line-height: 1.4285714285714286em;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -548,12 +564,8 @@ header{
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	margin-left: 26.6667px;
-	margin-right: 26.6667px;
+	line-height: 1.6em;
 	max-width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -569,7 +581,9 @@ header{
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
+	margin-left: 1.66666875em;
+	padding-left: 0.9375em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -584,7 +598,9 @@ header{
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
+	margin-right: 1.66666875em;
+	padding-right: 0.9375em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -624,19 +640,19 @@ header{
 	font-variant-position: normal;
 	font-variation-settings: normal;
 	font-weight: 400;
-	height: 1px;
+	height: 0.0625em;
 	letter-spacing: normal;
-	line-height: 24px;
-	margin: -1px;
+	line-height: 1.5em;
+	margin: -0.0625em;
 	outline-color: rgb(51, 51, 51);
 	outline-style: none;
-	outline-width: 0px;
+	outline-width: 0em;
 	overflow-x: hidden;
 	overflow-y: hidden;
 	padding: 0px;
 	position: absolute;
 	text-align: start;
-	text-indent: 0px;
+	text-indent: 0em;
 	text-rendering: auto;
 	text-shadow: none;
 	text-size-adjust: 100%;
@@ -646,8 +662,8 @@ header{
 	transition-duration: 0.2s;
 	transition-property: all;
 	transition-timing-function: ease-in-out;
-	width: 1px;
-	word-spacing: 0px;
+	width: 0.0625em;
+	word-spacing: 0em;
 	-webkit-rtl-ordering: logical;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	-webkit-border-image: none;
@@ -663,19 +679,19 @@ header{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	justify-content: flex-end;
-	left: 0px;
-	line-height: 20px;
-	margin-top: -14px;
+	left: 0em;
+	line-height: 1.4285714285714286em;
+	margin-top: -1em;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	padding-bottom: 3px;
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 6px;
+	padding-bottom: 0.21428571428571427em;
+	padding-left: 0.21428571428571427em;
+	padding-right: 0.21428571428571427em;
+	padding-top: 0.42857142857142855em;
 	position: absolute;
 	text-size-adjust: 100%;
 	text-wrap-mode: nowrap;
-	top: -99999px;
+	top: -7142.785714285715em;
 	white-space-collapse: collapse;
 	z-index: 2;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -712,17 +728,17 @@ header{
 	font-variant-position: normal;
 	font-variation-settings: normal;
 	font-weight: 400;
-	line-height: 20px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+	line-height: 1.4285714285714286em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
 	overflow-x: visible;
 	overflow-y: visible;
-	padding-bottom: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 15px;
+	padding-bottom: 1.0714285714285714em;
+	padding-left: 1.0714285714285714em;
+	padding-right: 1.0714285714285714em;
+	padding-top: 1.0714285714285714em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	text-wrap-mode: nowrap;
@@ -755,24 +771,21 @@ header{
 	font-variant-position: normal;
 	font-variation-settings: normal;
 	font-weight: 400;
-	height: 24px;
-	line-height: 20px;
+	height: 1.7142857142857142em;
+	line-height: 1.4285714285714286em;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;
 	text-wrap-mode: nowrap;
 	white-space-collapse: collapse;
-	width: 40px;
+	width: 2.857142857142857em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .inside-burger {
 	background-color: rgb(117, 214, 28);
-	border-bottom-left-radius: 4px;
-	border-bottom-right-radius: 4px;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
-	bottom: 0px;
+	border-radius: 4px 4px 4px 4px;
+	bottom: 0em;
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
 	cursor: pointer;
@@ -793,29 +806,26 @@ header{
 	font-variant-position: normal;
 	font-variation-settings: normal;
 	font-weight: 400;
-	height: 4px;
-	line-height: 20px;
-	margin-top: -2px;
+	height: 0.2857142857142857em;
+	line-height: 1.4285714285714286em;
+	margin-top: -0.14285714285714285em;
 	position: absolute;
 	text-size-adjust: 100%;
 	text-transform: none;
 	text-wrap-mode: nowrap;
-	top: 22px;
+	top: 1.5714285714285714em;
 	transition-delay: 0.13s;
 	transition-duration: 0.13s;
 	transition-property: transform;
 	transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 	white-space-collapse: collapse;
-	width: 40px;
+	width: 2.857142857142857em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .inside-burger:before {
 	background-color: rgb(117, 214, 28);
-	border-bottom-left-radius: 4px;
-	border-bottom-right-radius: 4px;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
 	content: "";
@@ -837,29 +847,26 @@ header{
 	font-variant-position: normal;
 	font-variation-settings: normal;
 	font-weight: 400;
-	height: 4px;
-	line-height: 20px;
+	height: 0.2857142857142857em;
+	line-height: 1.4285714285714286em;
 	position: absolute;
 	text-size-adjust: 100%;
 	text-transform: none;
 	text-wrap-mode: nowrap;
-	top: -10px;
+	top: -0.7142857142857143em;
 	transition-behavior: normal, normal;
 	transition-delay: 0.2s, 0s;
 	transition-duration: 0.12s, 0.13s;
 	transition-property: top, transform;
 	transition-timing-function: cubic-bezier(0.33333, 0.66667, 0.66667, 1), cubic-bezier(0.55, 0.055, 0.675, 0.19);
 	white-space-collapse: collapse;
-	width: 40px;
+	width: 2.857142857142857em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .inside-burger:after {
 	background-color: rgb(117, 214, 28);
-	border-bottom-left-radius: 4px;
-	border-bottom-right-radius: 4px;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
 	bottom: -10px;
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
@@ -882,20 +889,20 @@ header{
 	font-variant-position: normal;
 	font-variation-settings: normal;
 	font-weight: 400;
-	height: 4px;
-	line-height: 20px;
+	height: 0.2857142857142857em;
+	line-height: 1.4285714285714286em;
 	position: absolute;
 	text-size-adjust: 100%;
 	text-transform: none;
 	text-wrap-mode: nowrap;
-	top: -20px;
+	top: -1.4285714285714286em;
 	transition-behavior: normal, normal;
 	transition-delay: 0.2s, 0s;
 	transition-duration: 0.2s, 0.1s;
 	transition-property: top, opacity;
 	transition-timing-function: cubic-bezier(0.33333, 0.66667, 0.66667, 1), linear;
 	white-space-collapse: collapse;
-	width: 40px;
+	width: 2.857142857142857em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -912,29 +919,30 @@ header{
 	background-size: auto;
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
-	display: flex;
+	display: grid;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: bold;
-	height: 10%;
-	justify-content: space-between;
+	grid-template-columns: 8.528625em 12.1738125em 10.362625em 11.888em 12.4134375em 8.9603125em 10.7155em;
+	height: 2.48763125em;
+	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
-	margin-bottom: 5px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 5px;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
+	margin-bottom: 0.3125em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0.3125em;
 	overflow-wrap: break-word;
-	padding-inline-start: 33.8229px;
-	padding-left: 33.8229px;
-	padding-right: 33.8229px;
+	padding-inline-start: 2.11393125em;
+	padding-left: 2.11393125em;
+	padding-right: 2.11393125em;
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
@@ -949,12 +957,12 @@ header{
 	color: rgb(255, 255, 255);
 	display: flex;
 	font-family: Montserrat; /*"Nunito Sans", sans-serif;*/
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: bold;
 	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 37.8px;
+	line-height: 2.3625em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -963,12 +971,13 @@ header{
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
-	width: 12%;
+	width: 100%;
 }
 
 li.menu-item {
+	font-size: 16px;
 	position: relative;
-	margin-right: 20px;
+	margin-right: 1.25em;
 }
 
 .link-menu-link {
@@ -1015,24 +1024,6 @@ li.menu-item {
 	transition: linear 0.2s;
 }
 
-.sub-menu-text {
-	color: rgb(34, 136, 32);
-	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	font-size: 17px;
-	height: 100%;
-	text-decoration: none;
-	transition: linear 0.2s;
-}
-
-.sub-menu-text:hover {
-	color: rgb(117, 212, 28);
-	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	font-size: 16px;
-	height: 100%;
-	text-decoration: underline;
-	transition: linear 0.2s;
-}
-
 .sub-menu {
 	background: rgb(255, 255, 255);
 	background-origin: padding-box;
@@ -1062,14 +1053,14 @@ li.menu-item {
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
-	margin-bottom: 0px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
+	margin-bottom: 0em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
 	padding: 10%;
 	position: absolute;
 	text-align: left;
@@ -1089,7 +1080,45 @@ ul.sub-menu li {
 	padding-left: 10%;
 	padding-right: 10%;
 	text-align: left;
+	width: 100%;
 	word-wrap: none;
+}
+
+.sub-menu {
+    position: absolute;
+    z-index: 999;
+}
+
+.sub-menu-text {
+	color: rgb(34, 136, 32);
+	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-size: 17px;
+	height: 100%;
+	text-decoration: none;
+	transition: linear 0.2s;
+}
+
+.sub-menu-text:hover {
+	color: rgb(117, 212, 28);
+	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-size: 16px;
+	height: 100%;
+	text-decoration: underline;
+	transition: linear 0.2s;
+}
+
+.sub-grid-perc {
+	display: grid;
+	font-size: 16px;
+	grid-template-columns: 10.25em;
+	grid-template-rows: 2.375em 2.375em;
+}
+
+.sub-grid-more {
+	display: grid;
+	font-size: 16px;
+	grid-template-columns: 11.625em;
+	grid-template-rows: 2.375em 2.375em 2.375em 2.375em;
 }
 
 .title-card {
@@ -1108,11 +1137,11 @@ ul.sub-menu li {
 	flex-shrink: 0;
 	flex-wrap: nowrap;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: 168px;
+	height: 10.5em;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	order: 2;
 	overflow-wrap: break-word;
 	text-rendering: optimizelegibility;
@@ -1141,11 +1170,11 @@ ul.sub-menu li {
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	min-height: 30px;
+	line-height: 1.6em;
+	min-height: 1.875em;
 	padding-bottom: auto;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
 	padding-top: auto;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -1161,8 +1190,8 @@ ul.sub-menu li {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
+	line-height: 1.6em;
+	min-height: 1.875em;
 	padding-bottom: 2%;
 	padding-left: 12%;
 	padding-right: 12%;
@@ -1171,7 +1200,7 @@ ul.sub-menu li {
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 1100px;
+	width: 68.75em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -1188,16 +1217,16 @@ ul.sub-menu li {
 	font-size: 33px;
 	font-weight: bold;
 	hyphens: manual;
-	line-height: 36.3px;
-	margin-block-start: 0px;
-	margin-block-end: 0px;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
+	line-height: 1.0999999999999999em;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	margin-inline-start: 0em;
+	margin-inline-end: 0em;
 	overflow-wrap: normal;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
+	padding-bottom: 0.6060606060606061em;
+	padding-left: 0.30303030303030304em;
+	padding-right: 0.30303030303030304em;
+	padding-top: 0.30303030303030304em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: uppercase;
@@ -1214,10 +1243,13 @@ ul.sub-menu li {
 /*<!---->*/
 
 .glow-button {
+	align-items: center;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
+	display: flex;
 	font-size: 16px;
+	justify-content: center;
 	padding-bottom: 0.75em;
 	padding-left: 0.75em;
 	padding-right: 0.75em;
@@ -1232,17 +1264,36 @@ ul.sub-menu li {
 	filter: drop-shadow(0 0 10px rgba(117, 212, 28, 0.8));
 }
 
+.glow-button_header {
+	align-items: center;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	font-size: 16px;
+	justify-content: center;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 10%;
+}
+
+.glow-button_header svg {
+	transition: all 0.3s ease;
+}
+
+.glow-button_header:hover svg {
+	filter: drop-shadow(0 0 10px rgba(117, 212, 28, 0.8));
+}
+
 .button1 {
 	appearance: none;
 	background-color: rgb(34, 136, 32);
 	border-bottom: 5px solid rgb(117, 212, 28);
-	border-bottom-left-radius: 4px;
-	border-bottom-right-radius: 4px;
 	border-left: 5px solid rgb(117, 212, 28);
+	border-radius: 4px 4px 4px 4px;
 	border-right: 5px solid rgb(117, 212, 28);
 	border-top: 5px solid rgb(117, 212, 28);
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
 	cursor: pointer;
@@ -1252,15 +1303,15 @@ ul.sub-menu li {
 	font-weight: 700;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 20.8px;
+	line-height: 1em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
 	overflow-wrap: break-word;
-	padding-bottom: 17.6px;
-	padding-left: 31px;
-	padding-right: 31px;
-	padding-top: 17.8px;
+	padding-bottom: 0.8461538461538461em;
+	padding-left: 1.4903846153846154em;
+	padding-right: 1.4903846153846154em;
+	padding-top: 0.8557692307692307em;
 	position: relative;
 	text-align: center;
 	text-decoration-color: rgb(255, 255, 255);
@@ -1306,10 +1357,10 @@ ul.sub-menu li {
 	border-top: 5px solid rgb(117, 212, 28);
 	color: rgb(255, 255, 255);
 	font-family: 'Montserrat';
-	padding-bottom: 17.6px;
-	padding-left: 31px;
-	padding-right: 31px;
-	padding-top: 17.8px;
+	padding-bottom: 0.8461538461538461em;
+	padding-left: 1.4903846153846154em;
+	padding-right: 1.4903846153846154em;
+	padding-top: 0.8557692307692307em;
 }
 
 .top:before {
@@ -1346,14 +1397,14 @@ footer {
 	color: rgb(255, 255, 255);
 	display: block;
 	font-family: "Nunito Sans", sans-s;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	overflow-wrap: break-word;
-	padding-bottom: 58.182px;
-	padding-top: 116.364px;
+	padding-bottom: 3.636375em;
+	padding-top: 7.27275em;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
@@ -1365,14 +1416,14 @@ footer {
 	color: rgb(255, 255, 255);
 	display: block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1344px;
+	max-width: 84em;
 	overflow-wrap: break-word;
 	text-align: center;
 	text-rendering: optimizelegibility;
@@ -1386,25 +1437,25 @@ footer {
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
 	display: flex;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	justify-content: space-between;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-	margin-block-end: 55.3636px;
-	margin-block-start: 0px;
-	margin-bottom: 58.182px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
+	margin-block-end: 3.460225em;
+	margin-block-start: 0em;
+	margin-bottom: 3.636375em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
+	margin-top: 0em;
 	overflow-wrap: break-word;
-	padding-inline-start: 0px;
+	padding-inline-start: 0em;
 	padding-left: 20%;
 	padding-right: 20%;
 	text-align: center;
@@ -1451,11 +1502,11 @@ footer {
 	color: rgb(255, 255, 255);
 	display: inline-block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -1474,11 +1525,11 @@ footer {
 	color: rgb(255, 255, 255);
 	display: inline-block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -1497,11 +1548,11 @@ footer {
 	color: rgb(255, 255, 255);
 	display: inline-block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -1520,11 +1571,11 @@ footer {
 	color: rgb(255, 255, 255);
 	display: inline-block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -1543,11 +1594,11 @@ footer {
 	color: rgb(255, 255, 255);
 	display: inline-block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -1567,12 +1618,12 @@ footer {
 	cursor: pointer;
 	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
-	height: 80px;
+	height: 5em;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -1590,14 +1641,15 @@ footer {
 	transition-duration: 0.2s;
 	transition-property: opacity;
 	transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
-	width: 80px;
+	width: 5em;
 	-webkit-box-align: center;
 	-webkit-box-pack: center;
 }
 
 .social-icon_icon svg {
-	height: 56px;
-	width: 56px;
+	font-size: 16px;
+	height: 3.5em;
+	width: 3.5em;
 }
 
 .site-info {
@@ -1605,12 +1657,12 @@ footer {
 	color: rgb(255, 255, 255);
 	display: block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.296px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 30.1476px;
-	margin-bottom: 0px;
+	line-height: 1.9425em;
+	margin-bottom: 0em;
 	overflow-wrap: break-word;
 	text-align: center;
 	text-rendering: optimizelegibility;
@@ -1624,26 +1676,26 @@ footer {
 	color: rgb(255, 255, 255);
 	display: inline;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.296px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	letter-spacing: normal;
-	line-height: 30.1476px;
+	line-height: 1.9425em;
 	overflow-wrap: break-word;
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
-	width: 252.115px;
+	width: 15.7571875em;
 }
 
 .Pulse a {
 	color: rgb(255, 255, 255);
 	display: inline;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.296px;
+	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: normal;
-	line-height: 30.1476px;
+	line-height: 1.9425em;
 	overflow-wrap: break-word;
 	text-align: center;
 	text-decoration: none;
