@@ -1,5 +1,6 @@
 Switch all mesurments to em or %
-
+Redesign ConneXion page 
+	(Don't like the official websites layout. Needs to be thoughtout.)
 
 pages to do: 5
 	Links & Sponsors
