@@ -123,10 +123,10 @@
 
         var checkColor = /(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i;
         if (!checkColor.test(params.containerColor)) {
-            params.containerColor = '#000';
+            params.containerColor = '#75d61c'; /* #000 */
         }
         if (!checkColor.test(params.arrowColor)) {
-            params.arrowColor = '#fff';
+            params.arrowColor = '#000'; /* #fff */
         }
 
         if (params.title === '') {
