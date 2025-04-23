@@ -19,6 +19,8 @@ Pages done: 7
 	Store(Not Public)
 
 BaseStyle has been converted to em
+HomeStyle has been converted to em
+HistoryStyle has been converted to em
 
 
 
