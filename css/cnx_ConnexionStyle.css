@@ -204,6 +204,8 @@ reasons or is being used to label clustered parts of the code*/
 	height: auto;
 	hyphens: manual;
 	line-height: 26.4px;
+	margin-block-end: 0.5em;
+	margin-block-start: 0em;
 	margin-left: auto;
 	margin-right: auto;
 	overflow-wrap: normal;
