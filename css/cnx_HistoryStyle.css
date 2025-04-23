@@ -18,7 +18,7 @@ reasons or is being used to label clustered parts of the code*/
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 1263.33px;
+	width: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -33,12 +33,12 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	max-width: 100%;
-	padding-bottom: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 0px;
+	padding-bottom: 0em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+	padding-top: 0em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -56,9 +56,9 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	max-width: 100%;
-	padding-top: 15px;
+	padding-top: 0.9375em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -73,7 +73,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -88,7 +88,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	table-layout: fixed;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -104,7 +104,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	table-layout: fixed;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -122,13 +122,13 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	margin-left: -20px;
-	margin-right: -20px;
-	margin-top: -15px;
-	min-height: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
+	line-height: 1.6em;
+	margin-left: -1.25em;
+	margin-right: -1.25em;
+	margin-top: -0.9375em;
+	min-height: 1.875em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -142,16 +142,16 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-left: 26.6667px;
-	margin-right: 26.6667px;
+	line-height: 1.6em;
+	margin-left: 1.66666875em;
+	margin-right: 1.66666875em;
 	max-width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 1170px;
+	width: 73.125em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -163,7 +163,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -178,7 +178,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -192,14 +192,14 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-bottom: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 0px;
-	min-height: 30px;
-	padding-bottom: 19px;
-	padding-top: 29px;
+	line-height: 1.6em;
+	margin-bottom: 0em;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+	margin-top: 0em;
+	min-height: 1.875em;
+	padding-bottom: 1.1875em;
+	padding-top: 1.8125em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -214,10 +214,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -230,10 +230,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -245,12 +245,12 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-bottom: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 0px;
-	min-height: 30px;
+	line-height: 1.6em;
+	margin-bottom: 0em;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+	margin-top: 0em;
+	min-height: 1.875em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -265,10 +265,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -281,10 +281,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -296,16 +296,16 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	position: relative;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 1100px;
+	width: 68.75em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -317,15 +317,15 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 32px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 35.2px;
-	margin-block-end: 10px;
-	margin-block-start: 10px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 10px;
+	line-height: 1.1em;
+	margin-block-end: 0.3125em;
+	margin-block-start: 0.3125em;
+	margin-bottom: 0.3125em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0.3125em;
 	overflow-wrap: normal;
 	text-align: center;
 	text-size-adjust: 100%;
@@ -349,10 +349,10 @@ reasons or is being used to label clustered parts of the code*/
 	margin-bottom: 2em;
 	margin-top: 2em;
 	outline: none;
-	padding-bottom: 5px;
+	padding-bottom: 0.2em;
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-top: 5px;
+	padding-top: 0.2em;
 	text-align: left;
 	transition: 0.4s;
 	width: 100%;
@@ -372,26 +372,26 @@ reasons or is being used to label clustered parts of the code*/
 	color: rgb(255, 255, 255);
 	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: 10%;
 	justify-content: space-between;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
 	margin-bottom: auto;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
 	margin-top: auto;
 	overflow-wrap: break-word;
-	padding-inline-start: 33.8229px;
-	padding: 0.5em;
+	padding-inline-start: 2.013267857142857em;
+	padding: 0.525em;
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
@@ -406,12 +406,12 @@ reasons or is being used to label clustered parts of the code*/
 	color: rgb(255, 255, 255);
 	display: flex;
 	font-family: Montserrat; /*"Nunito Sans", sans-serif;*/
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 37.8px;
+	line-height: 2.3625em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -424,14 +424,15 @@ reasons or is being used to label clustered parts of the code*/
 }
 
 li.show-link-menu-item {
+	font-size: 16px;
 	position: relative;
-	margin-right: 20px;
+	margin-right: 1.25em;
 }
 
 .show-anchor-link {
 	color: rgb(34, 136, 32);
 	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	font-size: 17pxpx;
+	font-size: 17px;
 	height: 100%;
 	text-decoration: none;
 	transition: linear 0.2s;
@@ -457,12 +458,12 @@ li.show-link-menu-item {
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	margin-left: -20px;
-	margin-right: -20px;
-	min-height: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
+	line-height: 1.6em;
+	margin-left: -1.25em;
+	margin-right: -1.25em;
+	min-height: 1.875em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -476,16 +477,16 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-left: 26.6667px;
-	margin-right: 26.6667px;
+	line-height: 1.6em;
+	margin-left: 1.66666875em;
+	margin-right: 1.66666875em;
 	max-width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 1170px;
+	width: 73.125em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -497,7 +498,7 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -512,7 +513,7 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -527,14 +528,14 @@ li.show-link-menu-item {
 	font-size: 16px;
 	font-weight: 400;
 	height: 100%;
-	line-height: 25.6px;
-	margin-bottom: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 0px;
-	min-height: 30px;
-	padding-bottom: 26px;
-	padding-top: 26px;
+	line-height: 1.6em;
+	margin-bottom: 0em;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+	margin-top: 0em;
+	min-height: 1.875em;
+	padding-bottom: 1.625em;
+	padding-top: 1.625em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -549,10 +550,10 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -565,10 +566,10 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -580,15 +581,15 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 733.333px;
+	width: 45.8333125em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -617,10 +618,10 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 0px;
-	line-height: 25.6px;
-	margin-left: 0px;
-	margin-right: 0px;
+	height: 0em;
+	line-height: 1.6em;
+	margin-left: 0em;
+	margin-right: 0em;
 	overflow-x: visible;
 	overflow-y: visible;
 	position: relative;
@@ -637,15 +638,15 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 32px;
-	margin-block-end: 10px;
-	margin-block-start: 10px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 10px;
+	line-height: 1.6em;
+	margin-block-end: 0.5em;
+	margin-block-start: 0.5em;
+	margin-bottom: 0.5em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0.5em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -660,15 +661,15 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 22.4px;
-	margin-block-end: 10px;
-	margin-block-start: 10px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 10px;
+	line-height: 1.5999999999999999em;
+	margin-block-end: 0.7142857142857143em;
+	margin-block-start: 0.7142857142857143em;
+	margin-bottom: 0.7142857142857143em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0.7142857142857143em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -677,6 +678,7 @@ li.show-link-menu-item {
 }
 
 .show-body-imp {
+	font-size: 16px;
 	font-weight: bold;
 	text-decoration: underline;
 }
@@ -690,16 +692,16 @@ li.show-link-menu-item {
 	font-size: 16px;
 	font-weight: 400;
 	height: 100%;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	position: relative;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 366.656px;
+	width: 22.916em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -710,15 +712,15 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	margin-block-end: 10px;
-	margin-block-start: 10px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 10px;
+	line-height: 1.6em;
+	margin-block-end: 0.625em;
+	margin-block-start: 0.625em;
+	margin-bottom: 0.625em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0.625em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -738,8 +740,8 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 253.052px;
-	line-height: 25.6px;
+	height: 15.81575em;
+	line-height: 1.6em;
 	max-width: 100%;
 	overflow-clip-margin: content-box;
 	overflow-x: clip;
@@ -748,7 +750,7 @@ li.show-link-menu-item {
 	text-size-adjust: 100%;
 	text-transform: none;
 	vertical-align: middle;
-	width: 336.656px;
+	width: 21.041em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -764,8 +766,8 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 300px;
-	line-height: 25.6px;
+	height: 18.75em;
+	line-height: 1.6em;
 	max-width: 100%;
 	overflow-clip-margin: content-box;
 	overflow-x: clip;
@@ -774,7 +776,7 @@ li.show-link-menu-item {
 	text-size-adjust: 100%;
 	text-transform: none;
 	vertical-align: middle;
-	width: 278px;
+	width: 17.375em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -785,15 +787,15 @@ li.show-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 12px;
 	font-weight: 400;
-	line-height: 19.2px;
-	margin-block-end: 10px;
-	margin-block-start: 10px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 10px;
+	line-height: 1.5999999999999999em;
+	margin-block-end: 0.8333333333333334em;
+	margin-block-start: 0.8333333333333334em;
+	margin-bottom: 0.8333333333333334em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0.8333333333333334em;
 	text-align: left;
 	text-size-adjust: 100%;
 	text-transform: none;

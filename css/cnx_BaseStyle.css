@@ -139,7 +139,7 @@ a:hover {
 	transition-timing-function: ease;
 	-webkit-clip-path: inset(50%);
 	width: 0.05em;
-	word-spacing: 0px;
+	word-spacing: 0em;
 	word-wrap: normal!important;
 }
 
