@@ -20,7 +20,7 @@ reasons or is being used to label clustered parts of the code*/
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.board-container {
+.xion-container {
 	background-color: rgb(255, 255, 255);
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
@@ -37,7 +37,7 @@ reasons or is being used to label clustered parts of the code*/
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.board-container:before {
+.xion-container:before {
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
 	content: " ";
@@ -51,7 +51,7 @@ reasons or is being used to label clustered parts of the code*/
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.board-container:after {
+.xion-container:after {
 	box-sizing: border-box;
 	clear: both;
 	color: rgb(51, 51, 51);
@@ -117,7 +117,7 @@ reasons or is being used to label clustered parts of the code*/
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.board-title {
+.xion-head-title {
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
 	display: block;
@@ -139,7 +139,7 @@ reasons or is being used to label clustered parts of the code*/
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.board-title-h2 {
+.xion-title-h2 {
 	box-sizing: border-box;
 	color: rgb(117, 214, 28);
 	display: block;
@@ -148,12 +148,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-weight: 600;
 	hyphens: manual;
 	line-height: 44px;
-	/*margin-block-end: 10px;
-	margin-block-start: 20px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-top: 20px;*/
+	margin-bottom: 0em;
 	overflow-wrap: normal;
 	padding: -0.3em;
 	text-align: center;
@@ -163,7 +158,7 @@ reasons or is being used to label clustered parts of the code*/
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.xion_logo img {
+.xion_logo {
 	/*aspect-ratio: auto 437 / 118;*/
 	border-bottom: 0px none rgb(51, 51, 51);
 	border-image-outset: 0;
@@ -193,7 +188,7 @@ reasons or is being used to label clustered parts of the code*/
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.board-desc {
+.xion-desc {
 	align-items: center;
 	box-sizing: border-box;
 	color: rgb(0, 0, 0);
@@ -204,10 +199,10 @@ reasons or is being used to label clustered parts of the code*/
 	height: auto;
 	hyphens: manual;
 	line-height: 26.4px;
-	margin-block-end: 0.5em;
-	margin-block-start: 0em;
+	margin-bottom: 1em;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 0em;
 	overflow-wrap: normal;
 	padding-left: 1.6666666666666667em;
 	padding-right: 1.6666666666666667em;
