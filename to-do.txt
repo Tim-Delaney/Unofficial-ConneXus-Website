@@ -2,12 +2,11 @@ Switch all mesurments to em or %
 
 pages to do: 4
 	Donate
-	Winter Guard History
 	Contact Us
 	Auditions
 
 In Progress: 1
-	Links & Sponsors
+	Winter Guard History
 
 Pages done: 7
 	Home
@@ -16,11 +15,13 @@ Pages done: 7
 	Staff
 	CPAA Board
 	ConneXion
+	Links & Sponsors
 	Store(Not Public)
 
 BaseStyle has been converted to em
 HomeStyle has been converted to em
 HistoryStyle has been converted to em
-
+ScheduleStyle has been converted to em
+StaffStyle has been converted to em
 
 
