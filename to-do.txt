@@ -1,11 +1,10 @@
 Switch all mesurments to em or %
 
-pages to do: 2
-	Contact Us
+pages to do: 1
 	Auditions
 
-In Progress: 0
-	
+In Progress: 1
+	Contact Us
 
 Pages done: 10
 	Home
