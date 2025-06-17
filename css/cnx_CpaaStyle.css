@@ -12,8 +12,8 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	min-height: 30px;
+	line-height: 1.6em;
+	min-height: 1.875em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -28,7 +28,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	max-width: 100%;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -44,7 +44,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -59,7 +59,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -72,19 +72,18 @@ reasons or is being used to label clustered parts of the code*/
 	color: rgb(67, 74, 86);
 	display: block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
+	height: 17em;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	overflow-wrap: break-word;
-	padding-bottom: 25px;
-	padding-left: 61.667px;
-	padding-right: 61.667px;
+	padding-bottom: 1.5625em;
+	padding-left: 3.8542em;
+	padding-right: 3.8542em;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
-	
-	height: 17em;
 }
 
 .title-row:before {
@@ -95,10 +94,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -111,10 +110,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -126,12 +125,12 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-bottom: 16px;
-	padding-left: 16px;
-	padding-right: 16px;
-	padding-top: 16px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -148,13 +147,13 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 40px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 44px;
-	margin-block-end: 10px;
-	margin-block-start: 20px;
-	margin-bottom: 10px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-top: 20px;
+	line-height: 1.1em;
+	margin-block-end: 0.25em;
+	margin-block-start: 0.5em;
+	margin-bottom: 0.25em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-top: 0.5em;
 	overflow-wrap: normal;
 	padding: 0.6em;
 	text-align: center;
@@ -173,7 +172,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	height: auto;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	padding-left: 2.5em;
 	padding-right: 2.5em;
 	text-align: center;
@@ -185,10 +184,11 @@ reasons or is being used to label clustered parts of the code*/
 
 .board-content {
 	background-color: rgb(255, 255, 255); /*rgb(48, 48, 48);*/
-	margin-left: 46.6667px;
-	margin-right: 46.6667px;
-	padding-left: 15px;
-	padding-right: 15px;
+	font-size: 16px;
+	margin-left: 2.9167em;
+	margin-right: 2.9167em;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 }
 
 .accordion {
@@ -204,10 +204,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: Montserrat;
 	font-size: 25px;
 	outline: none;
-	padding-bottom: 5px;
+	padding-bottom: 0.2em;
 	padding-left: 7%;
 	padding-right: 3%;
-	padding-top: 5px;
+	padding-top: 0.2em;
 	text-align: left;
 	transition: 0.4s;
 	width: 100%;
@@ -219,8 +219,9 @@ reasons or is being used to label clustered parts of the code*/
 	content: '\002B'; /*'\02795';Unicode character for "plus" sign (+) */
 	display: flex;
 	float: right;
-	font-size: 40px;
-	margin-left: 5px;
+	font-size: 16px;
+	font-size: 2.5em;
+	margin-left: 0.3125em;
 }
 
 .active:after {
@@ -246,9 +247,10 @@ reasons or is being used to label clustered parts of the code*/
 
 .panel {
 	background-color: rgb(0, 0, 0);
+	font-size: 16px;
 	max-height: 0;
 	overflow: hidden;
-	padding: 0 18px;
+	padding: 0em 1.125em;
 	transition: max-height 0.2s ease-out;
 }
 
@@ -267,10 +269,10 @@ reasons or is being used to label clustered parts of the code*/
 	margin-bottom: 2em;
 	margin-top: 2em;
 	outline: none;
-	padding-bottom: 5px;
+	padding-bottom: 0.2em;
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-top: 5px;
+	padding-top: 0.2em;
 	text-align: left;
 	transition: 0.4s;
 	width: 100%;
@@ -290,22 +292,22 @@ reasons or is being used to label clustered parts of the code*/
 	color: rgb(255, 255, 255);
 	display: flex;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	height: 10%;
 	justify-content: space-between;
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
 	margin-bottom: auto;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
 	margin-top: auto;
 	overflow-wrap: break-word;
 	padding-inline-start: 33.8229px;
@@ -329,7 +331,7 @@ reasons or is being used to label clustered parts of the code*/
 	height: auto;
 	justify-content: center;
 	letter-spacing: normal;
-	line-height: 37.8px;
+	line-height: 2.3625em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
@@ -342,14 +344,15 @@ reasons or is being used to label clustered parts of the code*/
 }
 
 li.board-link-menu-item {
+	font-size: 16px;
 	position: relative;
-	margin-right: 20px;
+	margin-right: 1.25em;
 }
 
 .board-anchor-link {
 	color: rgb(34, 136, 32);
 	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	font-size: 17pxpx;
+	font-size: 17px;
 	height: 100%;
 	text-decoration: none;
 	transition: linear 0.2s;
@@ -383,12 +386,12 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-bottom: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 25px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-bottom: 1.5625em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+	padding-top: 1.5625em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -403,10 +406,10 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -419,10 +422,10 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -435,15 +438,15 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
-	width: 183.333px;
+	width: 11.45831em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -455,20 +458,20 @@ li.board-link-menu-item {
 	font-size: 49px;
 	font-weight: 700;
 	hyphens: manual;
-	line-height: 53.9px;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
-	margin-bottom: 0px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+	line-height: 1.1em;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
+	margin-bottom: 0em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
 	overflow-wrap: normal;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: uppercase;
@@ -499,21 +502,21 @@ li.board-link-menu-item {
 	font-family: Raleway;
 	font-size: 49px;
 	font-weight: 700;
-	height: 153.333px;
+	height: 3.1293em;
 	hyphens: manual;
-	line-height: 53.9px;
-	margin-left: 0px;
-	margin-right: 0px;
+	line-height: 1.1em;
+	margin-left: 0em;
+	margin-right: 0em;
 	max-width: 100%;
 	opacity: 1;
 	overflow-clip-margin: content-box;
 	overflow-wrap: normal;
 	overflow-x: clip;
 	overflow-y: clip;
-	padding-bottom: 3px;
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 3px;
+	padding-bottom: 0.0612em;
+	padding-left: 0.0612em;
+	padding-right: 0.0612em;
+	padding-top: 0.0612em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: uppercase;
@@ -523,7 +526,7 @@ li.board-link-menu-item {
 	transition-property: opacity;
 	transition-timing-function: ease;
 	vertical-align: middle;
-	width: 153.333px;
+	width: 3.1292em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -538,12 +541,12 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-bottom: 32px;
-	padding-left: 32px;
-	padding-right: 16px;
-	padding-top: 0px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 1em;
+	padding-top: 0em;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -560,20 +563,20 @@ li.board-link-menu-item {
 	font-size: 33px;
 	font-weight: 400;
 	hyphens: manual;
-	line-height: 36.3px;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
-	margin-bottom: 0px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+	line-height: 1.1em;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
+	margin-bottom: 0em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
 	overflow-wrap: normal;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
 	text-align: left;
 	text-size-adjust: 100%;
 	text-transform: uppercase;
@@ -589,20 +592,20 @@ li.board-link-menu-item {
 	font-size: 18px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 19.8px;
-	margin-block-end: 0px;
-	margin-block-start: 10px;
-	margin-bottom: 0px;
-	margin-inline-end: 0px;
-	margin-inline-start: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 10px;
+	line-height: 1.1em;
+	margin-block-end: 0em;
+	margin-block-start: 0.5556em;
+	margin-bottom: 0em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0.5556em;
 	overflow-wrap: normal;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
 	text-align: left;
 	text-size-adjust: 100%;
 	text-transform: uppercase;
@@ -619,14 +622,14 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	margin-left: auto;
 	margin-right: auto;
-	min-height: 30px;
+	min-height: 1.875em;
 	padding-bottom: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 25px;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+	padding-top: 1.5625em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -642,10 +645,10 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -658,10 +661,10 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -674,12 +677,12 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-bottom: 32px;
-	padding-left: 32px;
-	padding-right: 16px;
-	padding-top: 0px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 1em;
+	padding-top: 0em;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -695,16 +698,16 @@ li.board-link-menu-item {
 	font-size: 32px;
 	font-weight: 400;
 	hyphens: manual;
-	line-height: 35.2px;
+	line-height: 1.1em;
 	margin-bottom: 1em;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 0em;
+	margin-right: 0em;
 	margin-top: 0.6em;
 	overflow-wrap: normal;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: uppercase;
@@ -719,7 +722,7 @@ li.board-link-menu-item {
 	font-size: 32px;
 	font-weight: 400;
 	hyphens: manual;
-	line-height: 35.2px;
+	line-height: 1.1em;
 	overflow-wrap: normal;
 	text-align: center;
 	text-decoration-color: rgb(117, 214, 28);
@@ -738,10 +741,10 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 12px;
 	font-weight: 400;
-	line-height: 19.2px;
+	line-height: 1.6em;
 	list-style-type: disc;
 	padding-bottom: 1.58em;
-	padding-inline-start: 40px;
+	padding-inline-start: 3.3333em;
 	padding-top: 1.58em;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -757,10 +760,10 @@ li.board-link-menu-item {
 	font-size: 18px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 19.8px;
+	line-height: 1.1em;
 	list-style-type: disc;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-bottom: 0.6em;
+	margin-top: 0.6em;
 	overflow-wrap: normal;
 	text-align: left;
 	text-size-adjust: 100%;
@@ -780,7 +783,7 @@ li.board-link-menu-item {
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: none;

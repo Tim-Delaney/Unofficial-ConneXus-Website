@@ -12,8 +12,8 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 16px;
 	font-weight: 400;
 	justify-content: center;
-	line-height: 25.6px;
-	min-height: 30px;
+	line-height: 1.6em;
+	min-height: 1.875em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	unicode-bidi: isolate;
@@ -28,7 +28,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	max-width: 100%;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -45,7 +45,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -60,7 +60,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -73,14 +73,14 @@ reasons or is being used to label clustered parts of the code*/
 	color: rgb(67, 74, 86);
 	display: block;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 16.8px;
+	font-size: 16px;
 	font-weight: 400;
 	/*height: 17em;*/
 	letter-spacing: normal;
-	line-height: 31.08px;
+	line-height: 1.9425em;
 	overflow-wrap: break-word;
-	padding-left: 61.667px;
-	padding-right: 61.667px;
+	padding-left: 3.8542em;
+	padding-right: 3.8542em;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
@@ -94,10 +94,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -110,10 +110,10 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
+	line-height: 1.6em;
 	text-size-adjust: 100%;
 	text-transform: none;
-	width: 0px;
+	width: 0em;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -125,12 +125,12 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 25.6px;
-	min-height: 30px;
-	padding-bottom: 16px;
-	padding-left: 16px;
-	padding-right: 16px;
-	padding-top: 16px;
+	line-height: 1.6em;
+	min-height: 1.875em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;
@@ -147,7 +147,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-size: 40px;
 	font-weight: 600;
 	hyphens: manual;
-	line-height: 44px;
+	line-height: 1.1em;
 	margin-bottom: 0em;
 	overflow-wrap: normal;
 	padding: -0.3em;
@@ -175,7 +175,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 88.5px !important;
+	height: 5.53125em !important;
 	line-height: 25.6px;
 	/*max-width: 100%;*/
 	overflow-clip-margin: content-box;
@@ -184,7 +184,7 @@ reasons or is being used to label clustered parts of the code*/
 	text-size-adjust: 100%;
 	text-transform: none;
 	vertical-align: middle;
-	width: 327.75px !important; 
+	width: 20.484375em !important; 
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -198,14 +198,14 @@ reasons or is being used to label clustered parts of the code*/
 	font-weight: 600;
 	height: auto;
 	hyphens: manual;
-	line-height: 26.4px;
+	line-height: 1.1em;
 	margin-bottom: 1em;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0em;
 	overflow-wrap: normal;
-	padding-left: 1.6666666666666667em;
-	padding-right: 1.6666666666666667em;
+	padding-left: 1.6667em;
+	padding-right: 1.6667em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: uppercase;
