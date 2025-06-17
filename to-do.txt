@@ -1,7 +1,6 @@
 Switch all mesurments to em or %
 
 pages to do: 4
-	Donate
 	Contact Us
 	Auditions
 
@@ -16,6 +15,7 @@ Pages done: 7
 	CPAA Board
 	ConneXion
 	Links & Sponsors
+	Donate
 	Store(Not Public)
 
 BaseStyle has been converted to em
