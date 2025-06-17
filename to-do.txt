@@ -1,13 +1,13 @@
 Switch all mesurments to em or %
 
-pages to do: 4
+pages to do: 2
 	Contact Us
 	Auditions
 
-In Progress: 1
-	Winter Guard History
+In Progress: 0
+	
 
-Pages done: 7
+Pages done: 10
 	Home
 	Percussion History
 	CNX25 Schedule
@@ -16,14 +16,16 @@ Pages done: 7
 	ConneXion
 	Links & Sponsors
 	Donate
+	Winter Guard History
 	Store(Not Public)
 
-BaseStyle has been converted to em
-HomeStyle has been converted to em
-HistoryStyle has been converted to em
-ScheduleStyle has been converted to em
-StaffStyle has been converted to em
-CpaaStyle has been converted to em
-ConnexionStyle has been converted to em
+Converted to em: 7
+	BaseStyle
+	HomeStyle
+	HistoryStyle
+	ScheduleStyle
+	StaffStyle
+	CpaaStyle
+	ConnexionStyle
 
 
