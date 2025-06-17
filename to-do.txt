@@ -23,5 +23,7 @@ HomeStyle has been converted to em
 HistoryStyle has been converted to em
 ScheduleStyle has been converted to em
 StaffStyle has been converted to em
+CpaaStyle has been converted to em
+ConnexionStyle has been converted to em
 
 
