@@ -18,6 +18,10 @@ Pages done: 10
 	Winter Guard History
 	Store(Not Public)
 
+1em is equal to the font size of the element's direct parent
+An element with font-size: 1em; will have a font size of 16px.
+An element with font-size: 2em; will have a font size of 32px. 
+
 Converted to em: 7
 	BaseStyle
 	HomeStyle
