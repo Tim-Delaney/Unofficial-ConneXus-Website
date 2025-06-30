@@ -1,12 +1,12 @@
 Switch all mesurments to em or %
 
-pages to do: 1
-	Auditions
+pages to do: 0
+	
 
 In Progress: 1
-	Contact Us
+	Auditions
 
-Pages done: 10
+Pages done: 11
 	Home
 	Percussion History
 	CNX25 Schedule
@@ -16,13 +16,14 @@ Pages done: 10
 	Links & Sponsors
 	Donate
 	Winter Guard History
+	Contact Us
 	Store(Not Public)
 
 1em is equal to the font size of the element's direct parent
 An element with font-size: 1em; will have a font size of 16px.
 An element with font-size: 2em; will have a font size of 32px. 
 
-Converted to em: 7
+Converted to em (font-size not included): 10
 	BaseStyle
 	HomeStyle
 	HistoryStyle
@@ -30,5 +31,8 @@ Converted to em: 7
 	StaffStyle
 	CpaaStyle
 	ConnexionStyle
+	LinkStyle
+	DonateStyle
+	GuardStyle
 
 
