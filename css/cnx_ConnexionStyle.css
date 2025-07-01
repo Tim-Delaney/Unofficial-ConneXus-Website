@@ -144,21 +144,23 @@ reasons or is being used to label clustered parts of the code*/
 	color: rgb(117, 214, 28);
 	display: block;
 	font-family: Montserrat;
-	font-size: 40px;
+	font-size: 1em;
 	font-weight: 600;
+	height: auto;
 	hyphens: manual;
-	line-height: 1.1em;
+	line-height: 2.75em;
 	margin-bottom: 0em;
 	overflow-wrap: normal;
-	padding: -0.3em;
+	padding: -0.75em;
 	text-align: center;
 	text-size-adjust: 100%;
 	text-transform: uppercase;
 	unicode-bidi: isolate;
+	width: 100%; 
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.xion_logo {
+.xion-logo {
 	/*aspect-ratio: auto 437 / 118;*/
 	border-bottom: 0px none rgb(51, 51, 51);
 	border-image-outset: 0;
@@ -175,7 +177,7 @@ reasons or is being used to label clustered parts of the code*/
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
-	height: 5.53125em !important;
+	height: 7.60546875em !important;
 	line-height: 25.6px;
 	/*max-width: 100%;*/
 	overflow-clip-margin: content-box;
@@ -184,7 +186,7 @@ reasons or is being used to label clustered parts of the code*/
 	text-size-adjust: 100%;
 	text-transform: none;
 	vertical-align: middle;
-	width: 20.484375em !important; 
+	width: 28.166015625em !important; 
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -531,7 +533,8 @@ but I'm scared to remove it just incase I need it */
 .xion-photo-grid {
 	align-items: center;
 	display: inline-grid;
-	gap: 16px auto;
+	font-size: 16px;
+	gap: 1em auto;
 	grid-template-columns: 33% 33% 33%;
 	justify-content: center;
 	width: auto;
@@ -540,7 +543,7 @@ but I'm scared to remove it just incase I need it */
 .xion-photo-divs {
 	box-sizing: border-box;
 	color: rgb(51, 51, 51);
-	display: block;
+	display: grid;
 	float: left;
 	font-family: "Open Sans";
 	font-size: 16px;
@@ -627,9 +630,166 @@ but I'm scared to remove it just incase I need it */
 	text-size-adjust: 100%;
 	text-transform: none;
 	vertical-align: middle;
-	width: 100%
+	width: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	
 	/*height: 180.438px;
 	width: 270.656px;*/
+}
+
+/*----------*/
+
+@media only screen and (max-width: 768px) {
+	.title-row {
+		background-color: rgb(255, 255, 255);
+		border-bottom: 5px solid rgb(117, 212, 28);
+		box-sizing: border-box;
+		color: rgb(67, 74, 86);
+		display: block;
+		font-family: "Nunito Sans", sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		/*height: 17em;*/
+		letter-spacing: normal;
+		line-height: 1.9425em;
+		overflow-wrap: break-word;
+		padding-left: 0em;
+		padding-right: 0em;
+		text-rendering: optimizelegibility;
+		text-size-adjust: 100%;
+		unicode-bidi: isolate;
+	}
+	
+	.xion-title-h2 {
+		box-sizing: border-box;
+		color: rgb(117, 214, 28);
+		display: grid;
+		font-family: Montserrat;
+		font-size: 1em;
+		font-weight: 600;
+		height: auto;
+		hyphens: manual;
+		justify-content: center;
+		line-height: 2.75em;
+		margin-bottom: 0em;
+		overflow-wrap: normal;
+		padding: -0.75em;
+		text-align: center;
+		text-size-adjust: 100%;
+		text-transform: uppercase;
+		unicode-bidi: isolate;
+		width: 100%; 
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+	
+	.xion-logo {
+		/*aspect-ratio: auto 437 / 118;*/
+		border-bottom: 0px none rgb(51, 51, 51);
+		border-image-outset: 0;
+		border-image-repeat: stretch;
+		border-image-slice: 100%;
+		border-image-source: none;
+		border-image-width: 1;
+		border-left: 0px none rgb(51, 51, 51);
+		border-right: 0px none rgb(51, 51, 51);
+		border-top: 0px none rgb(51, 51, 51);
+		box-sizing: border-box;
+		color: rgb(51, 51, 51);
+		display: inline;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 400;
+		height: 5.185546875em !important;
+		line-height: 25.6px;
+		/*max-width: 100%;*/
+		overflow-clip-margin: content-box;
+		overflow-x: clip;
+		overflow-y: clip;
+		text-size-adjust: 100%;
+		text-transform: none;
+		vertical-align: middle;
+		width: 19.20410157em !important; 
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+	
+	.welcome-row {
+		box-sizing: border-box;
+		color: rgb(51, 51, 51);
+		display: flex;
+		flex-wrap: wrap;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.6em;
+		margin-bottom: 0em;
+		margin-left: 0em;
+		margin-right: 0em;
+		margin-top: 0em;
+		min-height: 1.875em;
+		padding-bottom: 1.625em;
+		padding-top: 2.125em;
+		text-size-adjust: 100%;
+		text-transform: none;
+		unicode-bidi: isolate;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+	
+	.photo-container {
+		align-items: center;
+		background-color: rgb(33, 33, 33);
+		box-sizing: border-box;
+		color: rgb(255,255,255);
+		display: flex;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 400;
+		justify-content: center;
+		line-height: 1.6em;
+		margin-left: 0em;
+		margin-right: 0em;
+		max-width: 100%;
+		padding-bottom: 1em;
+		padding-left: 0em;
+		padding-right: 0em;
+		text-size-adjust: 100%;
+		text-transform: none;
+		unicode-bidi: isolate;
+		width: auto;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+	
+	.xion-photo-grid {
+		align-items: center;
+		display: inline-grid;
+		font-size: 16px;
+		gap: 1em auto;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: auto;
+		justify-content: center;
+		width: auto;
+	}
+	
+	.xion-photo-divs {
+		box-sizing: border-box;
+		color: rgb(51, 51, 51);
+		display: grid;
+		float: left;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 400;
+		height: auto;
+		line-height: 1.6em;
+		margin-left: auto;
+		margin-right: auto;
+		min-height: 1.875em;
+		padding-left: 0em;
+		padding-right: 0em;
+		position: relative;
+		text-align: center;
+		text-size-adjust: 100%;
+		text-transform: none;
+		unicode-bidi: isolate;
+		width: 100%;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
 }

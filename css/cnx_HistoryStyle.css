@@ -343,16 +343,18 @@ reasons or is being used to label clustered parts of the code*/
 	border-top: 5px solid rgb(117, 212, 28);
 	color: rgb(117, 212, 28);
 	cursor: pointer;
-	display: grid;
+	display: flex;
 	font-family: Montserrat;
 	font-size: 25px;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: auto;
 	margin-bottom: 2em;
 	margin-top: 2em;
 	outline: none;
-	padding-bottom: 0.2em;
+	padding-bottom: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-top: 0.2em;
+	padding-top: 1em;
 	text-align: left;
 	transition: 0.4s;
 	width: 100%;
@@ -362,6 +364,7 @@ reasons or is being used to label clustered parts of the code*/
 	align-items: center;
 	background-attachment: scroll;
 	background-clip: border-box;
+	background-color: rgb(34, 136, 32);
 	background-image: none;
 	background-origin: padding-box;
 	background-position-x: 0%;
@@ -370,28 +373,24 @@ reasons or is being used to label clustered parts of the code*/
 	background-size: auto;
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
-	display: flex;
+	display: grid;
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+	gap: 0.2em;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: auto;
 	height: 10%;
 	justify-content: space-between;
+	justify-items: center;
 	letter-spacing: normal;
 	line-height: 1.9425em;
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-	margin-block-end: 0em;
-	margin-block-start: 0em;
-	margin-bottom: auto;
-	margin-inline-end: 0em;
-	margin-inline-start: 0em;
-	margin-left: 0em;
-	margin-right: 0em;
-	margin-top: auto;
+	margin: 0.525em;
 	overflow-wrap: break-word;
-	padding-inline-start: 2.013267857142857em;
-	padding: 0.525em;
+	padding-inline-start: 0em;
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
@@ -402,13 +401,14 @@ reasons or is being used to label clustered parts of the code*/
 .show-link-menu-item {
 	align-content: center;
 	align-items: center;
+	background-color: rgb(33, 33, 33);
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
-	display: flex;
+	display: grid;
 	font-family: Montserrat; /*"Nunito Sans", sans-serif;*/
 	font-size: 16px;
 	font-weight: 400;
-	height: auto;
+	height: 100%;
 	justify-content: center;
 	letter-spacing: normal;
 	line-height: 2.3625em;
@@ -416,17 +416,20 @@ reasons or is being used to label clustered parts of the code*/
 	list-style-position: outside;
 	list-style-type: none;
 	overflow-wrap: break-word;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
 	text-align: center;
 	text-rendering: optimizelegibility;
 	text-size-adjust: 100%;
 	unicode-bidi: isolate;
-	width: 20%;
+	width: 100%;
 }
 
 li.show-link-menu-item {
 	font-size: 16px;
 	position: relative;
-	margin-right: 1.25em;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
 }
 
 .show-anchor-link {
@@ -434,6 +437,8 @@ li.show-link-menu-item {
 	font-family: Montserrat; /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	font-size: 17px;
 	height: 100%;
+	margin-bottom: auto;
+	margin-top: auto;
 	text-decoration: none;
 	transition: linear 0.2s;
 }
@@ -818,4 +823,43 @@ li.show-link-menu-item {
 	font-family: Montserrat;
 	font-size: 20px;
 	margin: auto;
+}
+
+/*----------*/
+
+@media only screen and (max-width: 768px) {
+	.show-link-menu{
+		align-items: center;
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-image: none;
+		background-origin: padding-box;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		box-sizing: border-box;
+		color: rgb(255, 255, 255);
+		display: grid;
+		font-family: "Nunito Sans", sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: auto;
+		height: 10%;
+		justify-content: space-between;
+		justify-items: center;
+		letter-spacing: normal;
+		line-height: 1.9425em;
+		list-style-image: none;
+		list-style-position: outside;
+		list-style-type: none;
+		margin: 0.3em;
+		overflow-wrap: break-word;
+		text-align: center;
+		text-rendering: optimizelegibility;
+		text-size-adjust: 100%;
+		unicode-bidi: isolate;
+		width: 100%;
+	}
 }

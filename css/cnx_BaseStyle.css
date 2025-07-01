@@ -924,7 +924,6 @@ header{
 	font-size: 16px;
 	font-weight: bold;
 	grid-template-columns: repeat(7, 1fr);
-	/*grid-template-columns: 8.528625em 12.1738125em 10.362625em 11.888em 12.4134375em 8.9603125em 10.7155em;*/
 	height: 2.48763125em;
 	justify-content: center;
 	letter-spacing: normal;

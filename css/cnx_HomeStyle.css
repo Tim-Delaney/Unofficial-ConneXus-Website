@@ -1418,6 +1418,8 @@ reasons or is being used to label clustered parts of the code*/
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/*----------*/
+
 @media only screen and (max-width: 768px) {
 	.welcome-wrapper {
 		box-sizing: border-box;
@@ -1474,6 +1476,30 @@ reasons or is being used to label clustered parts of the code*/
 		text-size-adjust: 100%;
 		text-transform: none;
 		unicode-bidi: isolate;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+	
+	.body-container {
+		align-items: center;
+		background-color: rgb(33, 33, 33);
+		box-sizing: border-box;
+		color: rgb(255,255,255);
+		display: flex;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 400;
+		justify-content: center;
+		line-height: 1.6em;
+		margin-left: 0em;
+		margin-right: 0em;
+		max-width: 100%;
+		padding-bottom: 1em;
+		padding-left: 0em;
+		padding-right: 0em;
+		text-size-adjust: 100%;
+		text-transform: none;
+		unicode-bidi: isolate;
+		width: auto;
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	}
 	
