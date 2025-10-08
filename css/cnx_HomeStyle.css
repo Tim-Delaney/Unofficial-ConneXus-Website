@@ -324,6 +324,7 @@ reasons or is being used to label clustered parts of the code*/
 	margin-left: 0em;
 	margin-right: 0em;
 	max-width: 100%;
+	padding-bottom: 1em;
 	padding-left: 0em;
 	padding-right: 0em;
 	text-size-adjust: 100%;
@@ -1579,5 +1580,14 @@ reasons or is being used to label clustered parts of the code*/
 		text-transform: none;
 		unicode-bidi: isolate;
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+	
+	.sponser-grid {
+		column-gap: 1em;
+		display: inline-grid;
+		font-size: 16px;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		width: auto;
 	}
 }
