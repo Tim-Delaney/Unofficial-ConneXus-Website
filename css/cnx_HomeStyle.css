@@ -958,6 +958,16 @@ reasons or is being used to label clustered parts of the code*/
 	width: auto;
 }
 
+.sponser-grid-odd {
+	display: inline-grid;
+	font-size: 16px;
+	gap: 1em;
+	grid-template-columns: auto auto auto;
+	justify-items: center;
+	margin-top: 2em;
+	width: auto;
+}
+
 .sponser {
 	align-items: center;
 	box-sizing: border-box;
@@ -1417,6 +1427,56 @@ reasons or is being used to label clustered parts of the code*/
 	vertical-align: middle;
 	width: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.spon-img-DPG{
+	aspect-ratio: auto 147 / 88;
+	border-bottom: 2.66667px solid rgb(255, 255, 255);
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left: 2.66667px solid rgb(255, 255, 255);
+	border-right: 2.66667px solid rgb(255, 255, 255);
+	border-top: 2.66667px solid rgb(255, 255, 255);
+	box-shadow: rgb(85, 85, 85) 0px 0px 1px 0px, rgb(85, 85, 85) 0px 5px 5px 0px;
+	box-sizing: border-box;
+	clear: both;
+	color: rgb(117, 212, 28);
+	cursor: pointer;
+	display: block;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;
+	line-height: 0px;
+	/*margin-left: 8.66667px;
+	margin-right: 8.66667px;*/
+	max-width: 100%;
+	opacity: 1;
+	overflow-clip-margin: content-box;
+	overflow-x: clip;
+	overflow-y: clip;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
+	text-size-adjust: 100%;
+	text-transform: none;
+	transition-behavior: normal;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: opacity;
+	transition-timing-function: ease;
+	vertical-align: middle;
+	width: 60%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.space {
+	font-size: 16px;
+	width: 17em;
 }
 
 /*----------*/
