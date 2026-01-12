@@ -1139,7 +1139,8 @@ ul.sub-menu li {
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	height: 10.5em;
+	height: auto;
+	/*height: 10.5em;*/
 	letter-spacing: normal;
 	line-height: 1.9425em;
 	order: 2;
@@ -1183,6 +1184,7 @@ ul.sub-menu li {
 }
 
 .audition-align-1{
+	align-content: center;
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
 	display: block;
@@ -1191,11 +1193,11 @@ ul.sub-menu li {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.6em;
-	min-height: 1.875em;
-	padding-bottom: 2%;
+	min-height: 10.4375em;
+	padding-bottom: auto;
 	padding-left: 12%;
 	padding-right: 12%;
-	padding-top: 2%;
+	padding-top: auto;
 	position: relative;
 	text-size-adjust: 100%;
 	text-transform: none;

@@ -370,6 +370,15 @@ reasons or is being used to label clustered parts of the code*/
 	width: auto;
 }
 
+.spon-gallery-grid {
+	display: inline-grid;
+	font-size: 16px;
+	gap: 1em;
+	grid-template-columns: auto auto auto auto;
+	justify-items: center;
+	width: 100%;
+}
+
 .sponser-grid-odd {
 	display: inline-grid;
 	font-size: 16px;
@@ -377,16 +386,7 @@ reasons or is being used to label clustered parts of the code*/
 	grid-template-columns: auto auto auto;
 	justify-items: center;
 	margin-top: 2em;
-	width: auto;
-}
-
-.spon-gallery-grid {
-	column-gap: 1em;
-	display: inline-grid;
-	font-size: 16px;
-	grid-template-columns: auto auto auto auto;
-	justify-items: center;
-	width: auto;
+	width: 100%;
 }
 
 .imp-col {
@@ -1303,6 +1303,16 @@ reasons or is being used to label clustered parts of the code*/
 		grid-template-columns: auto auto;
 		justify-items: center;
 		width: auto;
+	}
+	
+	.sponser-grid-odd {
+		display: inline-grid;
+		font-size: 16px;
+		gap: 1em;
+		grid-template-columns: 0px auto 0px;
+		justify-items: center;
+		margin-top: 2em;
+		width: 100%;
 	}
 	
 	.imp-col {
